@@ -4,3 +4,92 @@
 @media(max-width:760px){.container{width:calc(100% - 38px)}.site-header{height:70px}.desktop-nav,.header-city,.top-contact{display:none}.menu-trigger{display:flex;flex-direction:column;justify-content:center;gap:6px;background:none;border:0;width:41px;height:42px;cursor:pointer}.menu-trigger span{height:2px;background:#242e25;width:23px;transition:transform .2s}.menu-trigger[aria-expanded=true] span:first-child{transform:translateY(4px) rotate(45deg)}.menu-trigger[aria-expanded=true] span:last-child{transform:translateY(-4px) rotate(-45deg)}.mobile-nav{position:absolute;top:70px;left:0;right:0;display:flex;flex-direction:column;gap:0;background:var(--paper);padding:12px 19px 24px;border-bottom:1px solid var(--line);box-shadow:0 18px 30px rgba(0,0,0,.07)}.mobile-nav[hidden]{display:none}.mobile-nav a{display:block;padding:14px 7px;font-size:1.22rem;border-bottom:1px solid #e3e6de}.mobile-nav a[aria-current=page]{color:#bc8c41}.hero{grid-template-columns:1fr;gap:39px;padding-top:61px;padding-bottom:53px}.hero-copy h1{font-size:clamp(3.25rem,11.2vw,5.3rem)}.hero-note{margin-top:30px}.hero-visual{min-height:0;height:350px}.hero-picture-tag{left:12px;right:12px;bottom:12px;padding:13px;font-size:.55rem}.numbers{grid-template-columns:1fr 1fr;row-gap:29px;padding:29px 0}.numbers strong{font-size:2.35rem}.numbers-note{margin-top:0}.section{padding-block:77px}.section-intro{align-items:start;flex-direction:column;gap:21px;margin-bottom:31px}.section-intro>p{max-width:510px}.section h2,.ending h2{font-size:clamp(2.45rem,8.4vw,4.2rem)}.feature-grid{gap:36px;grid-template-columns:1fr}.feature-photo{aspect-ratio:1.45}.feature-line{margin-top:18px}.editorial-grid{grid-template-columns:1fr;gap:0;padding-block:35px 54px}.editorial-photo{height:320px}.editorial-copy{padding:42px 4px 0}.editorial-copy h2{font-size:clamp(3rem,9vw,4.5rem)}.gallery-preview{grid-template-columns:1.2fr 1fr;gap:10px}.gallery-preview a{height:250px}.gallery-preview a:last-child{display:none}.section-locations{padding-top:35px}.location-grid{grid-template-columns:1fr;gap:12px}.location-card{min-height:220px;padding:27px}.location-card h3{font-size:2.3rem;margin-top:15px}.ending{padding-top:40px;padding-bottom:80px;align-items:start;flex-direction:column}.site-footer{padding-top:53px}.footer-top{grid-template-columns:1fr 1fr;gap:34px;padding-bottom:40px}.footer-intro{grid-column:1/-1}.footer-base{flex-direction:column;gap:9px}.subhero{padding-top:18px}.crumb{margin-bottom:29px}.subhero-grid{grid-template-columns:1fr;gap:30px;padding-bottom:45px}.subhero-copy h1{font-size:clamp(3.2rem,10vw,5rem)}.subhero-photo{height:315px}.drink-section{padding-top:40px}.important-notice{margin:22px 0 38px;padding:18px}.drink-layout{grid-template-columns:1fr;gap:25px}.drink-sidebar{position:static;display:grid;grid-template-columns:1fr 120px;column-gap:18px;align-items:start}.drink-sidebar p{grid-column:1}.drink-sidebar img{grid-column:2;grid-row:1/3;height:140px;object-fit:cover}.drink-sidebar h3{font-size:1.45rem}.drink-accordion summary{font-size:1.07rem;gap:12px}.drink-list{padding-left:24px}.accordion-count{font-size:.65rem}.strip-cta{margin-bottom:66px;padding:38px 0;flex-direction:column;align-items:start}.snacks-grid{grid-template-columns:1fr;gap:41px}.snack-photo{aspect-ratio:1.4}.snack-data{padding-top:19px}.snack-data h2{font-size:1.8rem}.snack-story{grid-template-columns:1fr;gap:32px;padding:35px 0 75px}.snack-story-picture{height:310px}.contact-heading-inner{flex-direction:column;align-items:start;gap:20px}.contact-heading-inner h1{font-size:clamp(3.9rem,12vw,6rem)}.contact-heading-inner .lead{max-width:530px}.contact-locations{grid-template-columns:1fr}.contact-location{padding:29px;min-height:0;gap:15px}.contact-connect{padding:72px 0}.contact-connect-grid{grid-template-columns:1fr;gap:40px}.contact-methods a strong{font-size:1.35rem}.location-content{grid-template-columns:1fr;gap:30px;padding-top:45px}.gallery-all{padding-top:30px}.photo-grid{grid-template-columns:repeat(2,1fr);gap:10px}.gallery-category{padding-bottom:40px}.gallery-category-head h2{font-size:1.7rem}.gallery-tile span{font-size:.63rem;opacity:1}}
 @media(max-width:390px){.container{width:calc(100% - 30px)}.hero-visual{height:310px}.hero h1{font-size:3.05rem}.numbers>div{align-items:start;flex-direction:column;gap:4px}.gallery-preview a{height:195px}.footer-top{grid-template-columns:1fr}.footer-intro{grid-column:auto}.drink-sidebar{grid-template-columns:1fr 105px}.accordion-count{display:none}.contact-actions{gap:16px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* Official GYM BEER identity — provided artwork */
+.site-header .brand.brand-custom,.site-footer .brand.brand-custom{display:inline-flex;align-items:center;flex:0 0 auto;line-height:0;letter-spacing:normal}
+.brand-custom .brand-image{display:block;width:176px;height:52px;max-width:100%;object-fit:contain;object-position:left center}
+.site-footer .brand-custom{background:#f7f6f2;padding:9px 12px;border-radius:5px;width:max-content}
+.site-footer .brand-custom .brand-image{width:190px;max-height:64px}
+/* V4 — compact, viewport-friendly layout and strictly contained brand mark */
+.site-header{height:72px}
+.nav-wrap{gap:18px}
+.site-header .brand.brand-custom{flex:0 0 176px!important;width:176px;max-width:176px;min-width:0;overflow:hidden;line-height:0}
+.site-header .brand-custom .brand-image{display:block!important;flex:none!important;width:176px!important;height:52px!important;min-width:0!important;max-width:176px!important;max-height:52px!important;object-fit:contain!important;object-position:left center!important}
+.desktop-nav{gap:24px}
+.header-end{gap:14px}
+.top-contact{padding:10px 16px}
+.eyebrow{margin-bottom:14px}
+.hero{grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:4.5%;padding-top:42px;padding-bottom:44px;align-items:center}
+.hero-copy{min-width:0}
+.hero-copy h1{font-size:clamp(3.05rem,4.2vw,4.45rem);line-height:1.055;letter-spacing:-.052em;margin-bottom:17px}
+.hero-copy .lead{font-size:1rem;line-height:1.65;max-width:490px}
+.action-row{margin-top:21px;gap:10px}
+.btn{min-height:46px;padding:11px 17px;gap:18px}
+.hero-note{margin-top:20px;font-size:.73rem}
+.hero-visual{align-self:center;height:436px;min-height:0;max-height:436px}
+.hero-image{width:100%;height:100%;object-fit:cover;object-position:50% 48%}
+.hero-picture-tag{left:15px;right:15px;bottom:15px;padding:11px 13px}
+.numbers{padding-top:21px;padding-bottom:15px}
+.numbers strong{font-size:2.2rem}
+.numbers-note{margin-top:9px}
+.section{padding-top:78px;padding-bottom:78px}
+.section-intro{margin-bottom:29px}
+.section-intro h2{font-size:clamp(2.4rem,3.85vw,4.25rem)}
+.feature-photo{aspect-ratio:1.5}
+.feature-line{margin-top:18px}
+.editorial-grid{min-height:435px}
+.editorial-photo{height:416px}
+.editorial-copy{padding:48px 0}
+.gallery-preview a{height:270px}
+.location-card{min-height:220px;padding:25px 29px}
+.ending{padding-top:45px;padding-bottom:78px}
+.subhero-grid{padding-bottom:43px}
+.subhero-copy h1{font-size:clamp(3rem,4.7vw,5rem);margin-bottom:21px}
+.subhero-photo{height:355px}
+.crumb{margin-bottom:25px}
+.gallery-head h1{font-size:clamp(3rem,5vw,5.3rem)}
+.site-footer{padding-top:53px}
+.footer-top{padding-bottom:52px}
+@media(max-width:1050px){
+  .site-header .brand.brand-custom{flex-basis:159px!important;width:159px;max-width:159px}
+  .site-header .brand-custom .brand-image{width:159px!important;max-width:159px!important;height:47px!important;max-height:47px!important}
+  .hero{padding-top:42px;padding-bottom:43px}
+  .hero-copy h1{font-size:clamp(2.75rem,4.7vw,3.8rem)}
+  .hero-visual{height:370px;max-height:370px;min-height:0}
+  .hero-note{margin-top:18px}
+}
+@media(max-width:760px){
+  .site-header{height:64px}
+  .mobile-nav{top:64px}
+  .site-header .brand.brand-custom{flex-basis:156px!important;width:156px;max-width:156px}
+  .site-header .brand-custom .brand-image{width:156px!important;max-width:156px!important;height:46px!important;max-height:46px!important}
+  .hero{grid-template-columns:1fr;gap:24px;padding-top:33px;padding-bottom:33px}
+  .hero-copy h1{font-size:clamp(2.7rem,9.8vw,3.65rem);margin-bottom:14px}
+  .hero-copy .lead{font-size:.96rem;line-height:1.6}
+  .action-row{margin-top:20px}
+  .hero-note{margin-top:19px}
+  .hero-visual{height:286px;max-height:286px}
+  .numbers{padding-top:22px;padding-bottom:18px;row-gap:22px}
+  .numbers strong{font-size:2rem}
+  .section{padding-top:56px;padding-bottom:56px}
+  .section-intro{margin-bottom:23px}
+  .feature-photo{aspect-ratio:1.55}
+  .editorial-grid{padding-block:25px 42px}
+  .editorial-photo{height:270px}
+  .editorial-copy{padding:29px 4px 0}
+  .gallery-preview a{height:205px}
+  .ending{padding-top:35px;padding-bottom:60px}
+  .subhero-grid{padding-bottom:35px}
+  .subhero-photo{height:270px}
+  .subhero-copy h1{font-size:clamp(2.8rem,9.5vw,4.2rem)}
+  .site-footer{padding-top:42px}
+}
+@media(max-width:390px){
+  .site-header .brand.brand-custom{flex-basis:145px!important;width:145px;max-width:145px}
+  .site-header .brand-custom .brand-image{width:145px!important;max-width:145px!important;height:43px!important;max-height:43px!important}
+  .hero{padding-top:25px;gap:20px}
+  .hero-copy h1{font-size:clamp(2.5rem,10vw,2.9rem)}
+  .hero-visual{height:235px;max-height:235px}
+  .btn{min-height:43px;padding:9px 13px;gap:13px;font-size:.79rem}
+  .gallery-preview a{height:180px}
+}
