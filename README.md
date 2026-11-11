@@ -1,8 +1,16 @@
 # GYM BEER — site oficial (V1)
 
-Site static, minimalist, SEO local pentru **GYM BEER, Chișinău**. 7 pagini, imagini reale din arhiva primită, două locații și catalog cu prețuri de referință **din 2025**. Prețurile **din 2026 nu sunt confirmate**; informația de pe site explică actualizarea lor ca urmare a inflației.
+Site static, minimalist, SEO local pentru **GYM BEER, Chișinău**. 7 pagini, 36 de fotografii din arhiva primită, două locații și catalog cu prețuri de referință **din 2025**. Prețurile **din 2026 nu sunt confirmate**; informația de pe site explică actualizarea lor ca urmare a inflației.
 
 ## Pornește în GitHub Codespaces
+
+Ultima versiune poate fi preluată și pornită astfel:
+
+```bash
+git pull --ff-only origin main && bash scripts/start-preview.sh
+```
+
+Fotografiile eliminate la cerere au fost scoase complet din galerie și din folderul de imagini.
 
 Dacă fișierele sunt deja în GitHub, intră în repository, alege **Code → Codespaces → Create codespace on main**. Preview-ul pornește automat pe portul **3000**; deschide-l din tab-ul **PORTS**.
 

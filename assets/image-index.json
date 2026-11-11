@@ -49,13 +49,6 @@
     "height": 2400
   },
   {
-    "index": 7,
-    "slug": "shop-interior-vertical",
-    "source": "Photographic_scene_re-render_prompt_cf3b1fd5_2K.jpg",
-    "width": 1792,
-    "height": 2400
-  },
-  {
     "index": 8,
     "slug": "smoked-fish-pieces",
     "source": "Professional_photographic_scene_ΓÇª_d5515392_2K.jpg",
@@ -133,13 +126,6 @@
     "height": 1792
   },
   {
-    "index": 19,
-    "slug": "draft-selection-wall",
-    "source": "Re-photograph_scene_with_HasselbΓÇª_1b3a4df4_2K.jpg",
-    "width": 2752,
-    "height": 1536
-  },
-  {
     "index": 20,
     "slug": "shrimp-and-beer",
     "source": "Re-photograph_scene_with_HasselbΓÇª_9a2d0bbc_2K.jpg",
@@ -152,13 +138,6 @@
     "source": "Professional_photographic_scene_ΓÇª_71b344c3_2K.jpg",
     "width": 2400,
     "height": 1792
-  },
-  {
-    "index": 22,
-    "slug": "beer-taps-detail",
-    "source": "Rephotograph_scene_with_HasselblΓÇª_f0117b6f_2K.jpg",
-    "width": 1792,
-    "height": 2400
   },
   {
     "index": 23,
@@ -192,13 +171,6 @@
     "index": 27,
     "slug": "shrimp-tray",
     "source": "Professional_architectural_photoΓÇª_c52a7b95_2K.jpg",
-    "width": 2400,
-    "height": 1792
-  },
-  {
-    "index": 28,
-    "slug": "bottled-beer-display",
-    "source": "Blur_labels_on_bear_66bd9a2c_2K.jpg",
     "width": 2400,
     "height": 1792
   },
