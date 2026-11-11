@@ -1,0 +1,13 @@
+# Local upload packages should not be committed
+*.zip
+*.tar.gz
+# Operating system / editor
+.DS_Store
+Thumbs.db
+.vscode/
+# Python / local tests
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*

@@ -1,0 +1,23 @@
+{
+  "name": "GYM BEER | Website",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "postStartCommand": "bash scripts/start-preview.sh",
+  "forwardPorts": [
+    3000
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "GYM BEER website",
+      "onAutoForward": "openBrowser",
+      "visibility": "private"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ecmel.vscode-html-css"
+      ]
+    }
+  }
+}
