@@ -262,3 +262,17 @@ details.mc-section:not([open]){margin-bottom:14px}
 .mc-part-snacks .mc-list{columns:2 300px;column-gap:56px}
 .mc-foot a{text-decoration:underline;text-underline-offset:3px}
 @media print{.crumb,.mc-jump,.mc-toggle{display:none!important}}
+
+/* ---------- Gustări: carte meniu cu poze mari ---------- */
+.sc-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:34px 30px}
+.sc-item{display:flex;flex-direction:column}
+.sc-photo{margin:0 0 14px;background:#fffdf8;padding:9px;box-shadow:0 10px 22px rgba(29,36,30,.2);cursor:zoom-in;transition:transform .2s}
+.sc-item:nth-child(3n+1) .sc-photo{transform:rotate(-1.2deg)}
+.sc-item:nth-child(3n+2) .sc-photo{transform:rotate(.8deg)}
+.sc-item:nth-child(3n) .sc-photo{transform:rotate(-.5deg)}
+.sc-photo:hover,.sc-photo:focus-visible{transform:rotate(0) translateY(-3px)}
+.sc-photo img{aspect-ratio:4/3;width:100%;object-fit:cover;display:block}
+.sc-item .mc-name{font-size:1.1rem}
+.sc-item .mc-desc{font-size:.82rem}
+@media(max-width:760px){.sc-grid{grid-template-columns:1fr;gap:28px}}
+@media print{.sc-grid{grid-template-columns:repeat(3,1fr)}.sc-photo{box-shadow:none;transform:none!important}}
