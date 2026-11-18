@@ -90,3 +90,28 @@ document.querySelector('.mc-print')?.addEventListener('click', () => window.prin
   const go = () => t.scrollIntoView({ block: 'start', behavior: 'instant' });
   if (document.readyState === 'complete') go(); else addEventListener('load', go, { once: true });
 })();
+
+/* Paralax pe fotografia arcuită: se mișcă la scroll și urmărește mouse-ul. */
+(() => {
+  const img = document.querySelector('.editorial-photo .arch-img img');
+  if (!img || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const band = img.closest('.editorial-band') || img.parentElement;
+  let sy = 0, mx = 0, my = 0, raf = 0;
+  const draw = () => { raf = 0; img.style.transform = `scale(1.14) translate3d(${mx}px, ${sy + my}px, 0)`; };
+  const queue = () => { if (!raf) raf = requestAnimationFrame(draw); };
+  const onScroll = () => {
+    const r = band.getBoundingClientRect(), vh = innerHeight;
+    if (r.bottom < 0 || r.top > vh) return;
+    const p = (r.top + r.height / 2 - vh / 2) / (vh / 2 + r.height / 2); // -1..1
+    sy = Math.max(-1, Math.min(1, p)) * 28; queue();
+  };
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    band.addEventListener('mousemove', e => {
+      const r = band.getBoundingClientRect();
+      mx = ((e.clientX - r.left) / r.width - .5) * -26;
+      my = ((e.clientY - r.top) / r.height - .5) * -18; queue();
+    });
+    band.addEventListener('mouseleave', () => { mx = my = 0; queue(); });
+  }
+})();
