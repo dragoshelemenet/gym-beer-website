@@ -235,11 +235,30 @@ main .editorial-copy .eyebrow,main .contact-connect .eyebrow{border-color:#d9c9a
  body{background:#fff}.menu-card{box-shadow:none;margin:0;background:#fff}.mc-chip{display:none}
  .menu-head{padding:0}.menu-head h1{font-size:2rem}
 }
-.mc-part:last-of-type .mc-cols{columns:1}
-.mc-part:last-of-type .mc-section{break-inside:auto}
-.mc-part:last-of-type .mc-list{columns:2 300px;column-gap:56px}
 /* Salt rapid la categorii (Băuturi) */
 .cat-jump{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px}
 .cat-jump a{border:1.5px solid var(--ink);border-radius:999px;padding:7px 13px;font-size:.78rem;font-weight:700;background:#fbf7ec;transition:background .15s}
 .cat-jump a:hover{background:#f0b43c}
 .drink-accordion{scroll-margin-top:96px}
+
+/* ---------- Carte meniu: pagină fără secțiune de sus, categorii care se închid ---------- */
+.menu-page{padding-top:34px}
+.menu-page .crumb{margin-bottom:22px}
+.menu-page .menu-card{margin-top:0}
+h1.mc-brand{font-size:clamp(2.4rem,6vw,4.2rem);letter-spacing:0;font-weight:400;margin:0}
+.mc-jump{justify-content:center;margin:-8px 0 30px}
+details.mc-section summary{list-style:none;cursor:pointer}
+details.mc-section summary::-webkit-details-marker{display:none}
+details.mc-section summary h2{user-select:none}
+.mc-count{margin-left:auto;font-size:.68rem;font-weight:700;color:#8a7a55;letter-spacing:.04em}
+.mc-toggle{width:22px;height:22px;border:1.5px solid var(--ink);border-radius:50%;display:inline-grid;place-items:center;flex:none;background:#fbf7ec}
+.mc-toggle::before{content:"";width:6px;height:6px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-1px) rotate(45deg);transition:transform .15s}
+details.mc-section:not([open]) .mc-toggle::before{transform:translateY(1px) rotate(-135deg)}
+details.mc-section summary:hover .mc-toggle{background:#f0b43c}
+details.mc-section{scroll-margin-top:100px}
+details.mc-section:not([open]){margin-bottom:14px}
+.mc-part-snacks .mc-cols{columns:1}
+.mc-part-snacks .mc-section{break-inside:auto}
+.mc-part-snacks .mc-list{columns:2 300px;column-gap:56px}
+.mc-foot a{text-decoration:underline;text-underline-offset:3px}
+@media print{.crumb,.mc-jump,.mc-toggle{display:none!important}}
