@@ -65,3 +65,19 @@
 
 /* Carte meniu: buton de printare. */
 document.querySelector('.mc-print')?.addEventListener('click', () => window.print());
+
+/* Meniu: filtru Tot / Doar băuturi / Doar gustări (se poate deschide direct cu #bauturi sau #gustari). */
+(() => {
+  const card = document.querySelector('.menu-card'); const tabs = document.querySelectorAll('.mc-filter [data-show]');
+  if (!card || !tabs.length) return;
+  const set = v => {
+    card.dataset.show = v;
+    tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.show === v)));
+    card.querySelectorAll('.mc-jump a').forEach(a => {
+      const sec = document.querySelector(a.getAttribute('href'));
+      a.hidden = v !== 'tot' && sec && !sec.closest(`[data-part="${v}"]`);
+    });
+  };
+  tabs.forEach(t => t.addEventListener('click', () => { set(t.dataset.show); history.replaceState(null, '', t.dataset.show === 'tot' ? location.pathname : '#' + t.dataset.show); }));
+  const h = location.hash.slice(1); if (h === 'bauturi' || h === 'gustari') set(h);
+})();
