@@ -1,18 +1,22 @@
 'use strict';
+/* Etichete în limba paginii (RO sau RU). */
+const T = document.documentElement.lang === 'ru'
+  ? { open: 'Открыть меню', close: 'Закрыть меню', photo: 'Фото', photoAlt: 'Фото GYM BEER', closePhoto: 'Закрыть фото' }
+  : { open: 'Deschide meniul', close: 'Închide meniul', photo: 'Fotografie', photoAlt: 'Fotografie GYM BEER', closePhoto: 'Închide fotografia' };
 (() => {
   const menu = document.querySelector('.menu-trigger');
   const mobile = document.querySelector('#mobile-menu');
   if (menu && mobile) {
     const close = () => {
       menu.setAttribute('aria-expanded', 'false');
-      menu.setAttribute('aria-label', 'Deschide meniul');
+      menu.setAttribute('aria-label', T.open);
       mobile.hidden = true;
       document.body.classList.remove('menu-open');
     };
     menu.addEventListener('click', () => {
       if (menu.getAttribute('aria-expanded') === 'true') { close(); return; }
       menu.setAttribute('aria-expanded', 'true');
-      menu.setAttribute('aria-label', 'Închide meniul');
+      menu.setAttribute('aria-label', T.close);
       mobile.hidden = false;
       document.body.classList.add('menu-open');
     });
@@ -27,16 +31,16 @@
 (() => {
   const box = document.createElement('div');
   box.className = 'lightbox'; box.hidden = true;
-  box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', 'Fotografie');
+  box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', T.photo);
   box.innerHTML = '<div class="lightbox-frame"><div class="lightbox-img" role="img"></div><div class="lightbox-shield"></div>' +
-    '<p class="lightbox-cap"></p><button class="lightbox-close" type="button" aria-label="Închide fotografia">×</button></div>';
+    '<p class="lightbox-cap"></p><button class="lightbox-close" type="button" aria-label="' + T.closePhoto + '">×</button></div>';
   document.body.appendChild(box);
   const img = box.querySelector('.lightbox-img'), cap = box.querySelector('.lightbox-cap');
   let last = null;
   const open = (src, text) => {
     last = document.activeElement;
     img.style.backgroundImage = `url("${src}")`;
-    img.setAttribute('aria-label', text || 'Fotografie GYM BEER');
+    img.setAttribute('aria-label', text || T.photoAlt);
     cap.textContent = text || '';
     box.hidden = false; document.body.classList.add('menu-open');
     box.querySelector('.lightbox-close').focus();
@@ -115,3 +119,8 @@ document.querySelector('.mc-print')?.addEventListener('click', () => window.prin
     band.addEventListener('mouseleave', () => { mx = my = 0; queue(); });
   }
 })();
+
+/* Comutatorul RO/RU păstrează secțiunea deschisă (#bauturi, #gustari, #bere...). */
+document.querySelectorAll('.lang-switch a').forEach(a => a.addEventListener('click', () => {
+  if (location.hash) a.href = a.href.split('#')[0] + location.hash;
+}));

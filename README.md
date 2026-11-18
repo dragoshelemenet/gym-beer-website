@@ -70,3 +70,20 @@ HTML, CSS, JS fără framework, imagini WebP la 760 / 1600 px. Optimizat pentru 
 - Spațiere redusă păstrând design-ul minimalist și responsive.
 - Au fost păstrate toate informațiile SEO și cele 5 pagini.
 - Pentru preview în Codespaces: `git pull --ff-only origin main && bash scripts/start-preview.sh`.
+
+## Versiunea rusă (/ru/)
+
+Paginile românești sunt singura sursă. Folderul `ru/` este **generat** — nu-l edita de mână.
+
+1. Modifici ce vrei pe paginile RO (index.html, meniu/, locatii/, galerie/, contact/).
+2. Rulezi:
+   ```bash
+   python3 scripts/build-ru.py
+   ```
+3. Dacă scriptul listează texte noi fără traducere, le completezi în `i18n/ru.json`
+   (cheia = textul românesc, valoarea = traducerea rusă) și rulezi din nou.
+   Până atunci, pe /ru/ apare textul românesc.
+
+Șabloanele din `i18n/ru.json` (chei cu `{}`, ex. `"{} MDL": "{} лей"`) traduc automat
+toate textele de forma respectivă. Scriptul pune și comutatorul RO/RU în header pe toate paginile.
+`python3 scripts/build-ru.py --check` doar verifică dacă lipsesc traduceri.

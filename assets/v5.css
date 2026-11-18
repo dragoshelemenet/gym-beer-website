@@ -464,3 +464,11 @@ main .contact-connect .eyebrow:not(.small):not(.eyebrow-tag),main .editorial-cop
 /* Paralax pe fotografia arcuită */
 .editorial-photo .arch-img img{transform:scale(1.14);will-change:transform;transition:transform .35s cubic-bezier(.2,.7,.3,1)}
 @media(prefers-reduced-motion:reduce){.editorial-photo .arch-img img{transform:none;transition:none}}
+
+/* Comutator de limbă RO / RU */
+.lang-switch{display:inline-flex;align-items:center;gap:2px;border:1.5px solid var(--ink);border-radius:999px;padding:3px;font-size:.72rem;font-weight:800;letter-spacing:.06em;background:#fbf7ec}
+.lang-switch>span{display:none}
+.lang-switch a{display:block;padding:5px 9px;border-radius:999px;color:var(--ink);text-decoration:none;line-height:1}
+.lang-switch a:hover{background:#efe3c6}
+.lang-switch a[aria-current]{background:var(--ink);color:#fff}
+.lang-switch-mobile{display:none}
