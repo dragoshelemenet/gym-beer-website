@@ -82,3 +82,11 @@ document.querySelector('.mc-print')?.addEventListener('click', () => window.prin
   const h = location.hash.slice(1);
   if (h === "bauturi" || h === "gustari") { set(h); requestAnimationFrame(() => card.scrollIntoView({ block: "start" })); }
 })();
+
+/* Galerie: deschisă cu #magazine / #bere / #gustari, sare la secțiunea respectivă după încărcare. */
+(() => {
+  const t = location.hash && document.querySelector('.gallery-category' + location.hash);
+  if (!t) return;
+  const go = () => t.scrollIntoView({ block: 'start', behavior: 'instant' });
+  if (document.readyState === 'complete') go(); else addEventListener('load', go, { once: true });
+})();

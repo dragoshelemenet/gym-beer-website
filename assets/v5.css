@@ -320,3 +320,47 @@ details.mc-section:not([open]){margin-bottom:14px}
 .contact-photo{max-width:520px;margin:0 auto 72px;text-align:center}
 .contact-photo img{width:100%;height:auto}
 .arch-img>a,.stamp>a{display:block;height:100%}
+.feature-photo{display:block}
+
+/* ---------- Ritm vertical compact: fără goluri mari între secțiuni ---------- */
+.section{padding-block:64px}
+.numbers + .section{padding-top:64px}
+.section-locations{padding-top:16px}
+.subhero{padding-top:28px}
+.crumb,.menu-page .crumb{margin-bottom:20px}
+.subhero + .section{padding-top:16px}
+.contact-heading-inner{padding-bottom:0}
+.section:has(+ .contact-photo){padding-bottom:40px}
+.contact-photo{margin-bottom:56px}
+.gallery-head{padding-bottom:0}
+.gallery-all{padding-top:4px;padding-bottom:8px}
+.gallery-category{padding-bottom:48px}
+.gallery-category{scroll-margin-top:110px}
+.strip-cta{margin-bottom:56px}
+.contact-connect{padding:64px 0}
+.editorial-grid{min-height:0;padding-block:48px}
+.ending{padding:48px 0 64px}
+.site-footer{padding-top:48px}
+.footer-top{padding-bottom:40px}
+.menu-card{margin-bottom:56px}
+.menu-page{padding-top:28px}
+.loc-page{padding-bottom:56px}
+.loc-block{margin-top:56px}
+@media(max-width:760px){
+  .section{padding-block:44px}
+  .numbers + .section{padding-top:44px}
+  .subhero{padding-top:18px}
+  .crumb,.menu-page .crumb{margin-bottom:16px}
+  .contact-photo{margin-bottom:40px}
+  .gallery-category{padding-bottom:32px}
+  .gallery-category{scroll-margin-top:80px}
+  .strip-cta{margin-bottom:40px}
+  .contact-connect{padding:44px 0}
+  .editorial-grid{padding-block:36px}
+  .ending{padding:36px 0 44px}
+  .site-footer{padding-top:40px}
+  .footer-top{padding-bottom:32px}
+  .menu-card{margin-bottom:40px}
+  .loc-block{margin-top:40px}
+  .loc-page{padding-bottom:40px}
+}
