@@ -1,6 +1,6 @@
 # GYM BEER — site oficial (V1)
 
-Site static, minimalist, SEO local pentru **GYM BEER, Chișinău**. 7 pagini, 68 de fotografii în galerie (arhiva primită + pozele de pe 13 nov prelucrate în Flow, fără dubluri), două locații și catalog cu prețuri de referință **din 2025**. Prețurile **din 2026 nu sunt confirmate**; informația de pe site explică actualizarea lor ca urmare a inflației.
+Site static, minimalist, SEO local pentru **GYM BEER, Chișinău**. 5 pagini, 68 de fotografii în galerie (arhiva primită + pozele de pe 13 nov prelucrate în Flow, fără dubluri), două locații și catalog cu prețuri de referință **din 2025**. Prețurile **din 2026 nu sunt confirmate**; informația de pe site explică actualizarea lor ca urmare a inflației.
 
 ## Pornește în GitHub Codespaces
 
@@ -46,8 +46,6 @@ python3 scripts/check-site.py
 | Pagină | URL |
 | --- | --- |
 | Acasă | `/` |
-| Băuturi | `/bauturi/` |
-| Gustări | `/gustari/` |
 | Galerie | `/galerie/` |
 | Contact („Ne vedem aici”) | `/contact/` |
 | Botanica | `/locatii/botanica/` |
@@ -70,5 +68,5 @@ HTML, CSS, JS fără framework, imagini WebP la 760 / 1600 px. Optimizat pentru 
 - Logo-ul este limitat la 176 × 52 px pe desktop, iar CSS-ul este reîncărcat cu `?v=4` pentru a evita cache-ul vechi.
 - Hero-ul are titlu și imagine mai compacte, butoanele sunt vizibile mai rapid fără scroll.
 - Spațiere redusă păstrând design-ul minimalist și responsive.
-- Au fost păstrate toate informațiile SEO și cele 7 pagini.
+- Au fost păstrate toate informațiile SEO și cele 5 pagini.
 - Pentru preview în Codespaces: `git pull --ff-only origin main && bash scripts/start-preview.sh`.
