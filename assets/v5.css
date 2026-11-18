@@ -185,3 +185,17 @@ img{-webkit-user-drag:none;user-select:none;-webkit-user-select:none;-webkit-tou
  .row-end{flex-direction:column;align-items:flex-end;gap:6px}
  .lightbox{padding:14px}.lightbox-frame{padding:8px 8px 40px}.lightbox-close{top:-12px;right:-6px}
 }
+
+/* ---------- Băuturi: meniu pe toată lățimea, categorii deschise ---------- */
+.drink-layout{grid-template-columns:1fr}
+.drink-layout>div{min-width:0}
+.drink-accordion summary{position:sticky;top:84px;z-index:3;background:var(--paper)}
+
+/* ---------- Pastile pe etichetele din toate paginile ---------- */
+main .eyebrow:not(.small):not(.eyebrow-tag){display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--ink);border-radius:999px;padding:6px 13px;color:var(--ink);font-size:.64rem;letter-spacing:.14em}
+main .editorial-copy .eyebrow,main .contact-connect .eyebrow{border-color:#d9c9a3;color:#f0e4c8}
+.contact-location .eyebrow.small,.location-card .eyebrow.small{display:inline-block;background:#f0b43c;color:var(--ink);border:1.5px solid var(--ink);border-radius:999px;padding:4px 10px;font-weight:800}
+
+/* ---------- Footer: logo pe etichetă kraft ---------- */
+.brand-footer{display:inline-flex;background:var(--kraft);border:2px solid #f2e6cb;border-radius:6px;padding:8px 14px;box-shadow:3px 3px 0 var(--gold-shadow);transform:rotate(-2deg)}
+.brand-footer .brand-image{mix-blend-mode:multiply}
