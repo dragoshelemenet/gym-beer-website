@@ -79,5 +79,6 @@ document.querySelector('.mc-print')?.addEventListener('click', () => window.prin
     });
   };
   tabs.forEach(t => t.addEventListener('click', () => { set(t.dataset.show); history.replaceState(null, '', t.dataset.show === 'tot' ? location.pathname : '#' + t.dataset.show); }));
-  const h = location.hash.slice(1); if (h === 'bauturi' || h === 'gustari') set(h);
+  const h = location.hash.slice(1);
+  if (h === "bauturi" || h === "gustari") { set(h); requestAnimationFrame(() => card.scrollIntoView({ block: "start" })); }
 })();

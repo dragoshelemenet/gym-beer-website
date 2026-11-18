@@ -319,3 +319,4 @@ details.mc-section:not([open]){margin-bottom:14px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .contact-photo{max-width:520px;margin:0 auto 72px;text-align:center}
 .contact-photo img{width:100%;height:auto}
+.arch-img>a,.stamp>a{display:block;height:100%}
