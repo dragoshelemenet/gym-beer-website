@@ -1,6 +1,6 @@
 # GYM BEER — site oficial (V1)
 
-Site static, minimalist, SEO local pentru **GYM BEER, Chișinău**. 7 pagini, 36 de fotografii din arhiva primită, două locații și catalog cu prețuri de referință **din 2025**. Prețurile **din 2026 nu sunt confirmate**; informația de pe site explică actualizarea lor ca urmare a inflației.
+Site static, minimalist, SEO local pentru **GYM BEER, Chișinău**. 7 pagini, 68 de fotografii în galerie (arhiva primită + pozele de pe 13 nov prelucrate în Flow, fără dubluri), două locații și catalog cu prețuri de referință **din 2025**. Prețurile **din 2026 nu sunt confirmate**; informația de pe site explică actualizarea lor ca urmare a inflației.
 
 ## Pornește în GitHub Codespaces
 
