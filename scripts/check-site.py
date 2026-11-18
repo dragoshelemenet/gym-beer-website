@@ -12,8 +12,8 @@ class SiteParser(HTMLParser):
         attrs=dict(attrs)
         if tag=='h1': self.h1+=1
         if tag=='title': self.title+=1
-        if tag not in ('a','img','script','link','source'): return
-        for key in ('href','src','srcset'):
+        if tag not in ('a','img','script','link','source','li','div','span','button','figure'): return
+        for key in ('href','src','srcset','data-photo'):
             if key not in attrs: continue
             links=[a.strip().split()[0] for a in attrs[key].split(',')] if key=='srcset' else [attrs[key]]
             for url in links:

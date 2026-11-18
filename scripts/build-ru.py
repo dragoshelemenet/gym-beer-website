@@ -147,7 +147,7 @@ def fix_paths(doc: str, rel: Path) -> str:
             val = one(val)
         return f'{name}="{val}"'
 
-    doc = re.sub(r'(?<=\s)(href|src|srcset)="([^"]*)"', attr, doc)
+    doc = re.sub(r'(?<=\s)(href|src|srcset|data-photo|poster)="([^"]*)"', attr, doc)
     return doc
 
 
