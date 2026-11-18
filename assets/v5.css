@@ -404,3 +404,10 @@ details.mc-section:not([open]){margin-bottom:14px}
   .loc-block{margin-bottom:24px}
   .menu-card{padding-top:30px;margin-bottom:24px}
 }
+
+/* Contact: antet compact pe un rând, ca la Locații */
+.contact-heading-inner{align-items:flex-end;gap:14px 40px;padding-bottom:0}
+.contact-heading-inner h1{font-size:clamp(2rem,3.4vw,3.2rem);line-height:1.05;margin:6px 0 0}
+.contact-heading-inner .lead{font-size:1rem;max-width:420px;margin:0}
+.subhero + .contact-locs{padding-top:24px}
+@media(max-width:760px){.contact-heading-inner{gap:10px;align-items:flex-start}.contact-heading-inner h1{font-size:clamp(1.8rem,8vw,2.4rem)}.subhero + .contact-locs{padding-top:18px}}
