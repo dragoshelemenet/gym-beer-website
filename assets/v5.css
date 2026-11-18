@@ -443,3 +443,13 @@ main:has(> .contact-connect:last-child) + .site-footer{padding-top:20px}
   .contact-methods a strong{font-size:1.15rem}
   .site-footer .brand-footer .brand-image{width:130px}
 }
+
+/* Etichete pe fundal închis: text și contur albe */
+main .contact-connect .eyebrow:not(.small):not(.eyebrow-tag),main .editorial-copy .eyebrow:not(.small):not(.eyebrow-tag){color:#fff;border-color:rgba(255,255,255,.85)}
+
+/* Antete Contact/Locații: fără etichetă, breadcrumb lipit de titlu */
+.contact-heading .crumb,.loc-page > .crumb{margin-bottom:10px}
+.contact-heading-inner h1,.loc-head h1{margin-top:0}
+.contact-heading-inner .lead{font-size:.95rem;line-height:1.6}
+.subhero + .contact-locs{padding-top:20px}
+.loc-head{margin-bottom:20px}
