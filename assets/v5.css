@@ -364,3 +364,43 @@ details.mc-section:not([open]){margin-bottom:14px}
   .loc-block{margin-top:40px}
   .loc-page{padding-bottom:40px}
 }
+
+/* Locații: antet compact pe un rând */
+.loc-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px 32px;margin:0 0 24px}
+.loc-head h1{font-size:clamp(2rem,3.4vw,3.2rem);margin:6px 0 0;line-height:1.05}
+.loc-head .loc-jump{margin:0}
+.loc-head + .loc-block{margin-top:0}
+@media(max-width:760px){.loc-head{margin-bottom:18px}.loc-head h1{font-size:clamp(1.8rem,8vw,2.4rem)}}
+
+/* Ritm vertical compact, pas 2: hero lipit de meniu, fără goluri înainte de footer */
+.hero{padding-block:24px 40px;align-items:start}
+.hero-collage{min-height:460px}
+.section:has(+ .editorial-band){padding-bottom:48px}
+.editorial-band + .section{padding-top:48px}
+.editorial-grid{padding-block:36px}
+.section-locations{padding-bottom:32px}
+.location-card{min-height:0}
+.ending{padding:40px 0 48px}
+.site-footer{padding-top:40px}
+.contact-photo{margin-bottom:40px}
+.contact-connect{padding:56px 0}
+.gallery-category:last-child{padding-bottom:16px}
+.strip-cta{margin:0 0 32px;padding:32px 0}
+.loc-block{margin:0 0 32px}
+.loc-page{padding-bottom:24px}
+.menu-card{padding-top:40px;margin-bottom:32px}
+@media(max-width:1050px){.hero-collage{min-height:420px}}
+@media(max-width:760px){
+  .hero{padding-block:16px 32px}
+  .hero-collage{min-height:0}
+  .section:has(+ .editorial-band){padding-bottom:36px}
+  .editorial-band + .section{padding-top:36px}
+  .editorial-grid{padding-block:28px}
+  .section-locations{padding-bottom:24px}
+  .ending{padding:32px 0 40px}
+  .site-footer{padding-top:32px}
+  .contact-connect{padding:40px 0}
+  .strip-cta{margin-bottom:24px;padding:28px 0}
+  .loc-block{margin-bottom:24px}
+  .menu-card{padding-top:30px;margin-bottom:24px}
+}
