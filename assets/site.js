@@ -62,3 +62,6 @@
   document.addEventListener('contextmenu', e => { if (isPhoto(e.target)) e.preventDefault(); });
   document.addEventListener('dragstart', e => { if (isPhoto(e.target)) e.preventDefault(); });
 })();
+
+/* Carte meniu: buton de printare. */
+document.querySelector('.mc-print')?.addEventListener('click', () => window.print());
