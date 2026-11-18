@@ -411,3 +411,35 @@ details.mc-section:not([open]){margin-bottom:14px}
 .contact-heading-inner .lead{font-size:1rem;max-width:420px;margin:0}
 .subhero + .contact-locs{padding-top:24px}
 @media(max-width:760px){.contact-heading-inner{gap:10px;align-items:flex-start}.contact-heading-inner h1{font-size:clamp(1.8rem,8vw,2.4rem)}.subhero + .contact-locs{padding-top:18px}}
+
+/* ---------- Scară tipografică moderată: titluri fără dimensiuni gigantice ---------- */
+.hero-copy h1{font-size:clamp(2.6rem,4.4vw,4.1rem)}
+.numbers strong{font-size:clamp(2.2rem,3.4vw,3.2rem)}
+.section-intro h2,.section h2,.editorial-copy h2,.ending h2,.contact-connect h2{font-size:clamp(1.9rem,2.9vw,2.7rem);line-height:1.08}
+.strip-cta h2{font-size:clamp(1.7rem,2.4vw,2.3rem)}
+.location-card h3{font-size:1.9rem;margin:14px 0 4px}
+.contact-location h3{font-size:1.9rem;margin:6px 0 10px}
+.loc-block h2{font-size:clamp(2rem,2.8vw,2.6rem);margin:10px 0 14px}
+.mc-part-title{font-size:clamp(1.8rem,2.8vw,2.5rem);margin-bottom:18px}
+.feature-line h3{font-size:1.6rem}
+h1.mc-brand{font-size:clamp(2.2rem,4.4vw,3.4rem)}
+/* Contact: banda „Scrie-ne” compactă și lipită de footer */
+.contact-connect{padding:44px 0 28px}
+.contact-connect h2{margin-bottom:12px}
+.contact-connect p{font-size:.95rem;max-width:440px}
+.contact-methods a{padding:16px 0}
+.contact-methods a strong{font-size:1.3rem}
+.contact-methods a b{font-size:1.1rem}
+main:has(> .contact-connect:last-child) + .site-footer{padding-top:20px}
+/* Footer: logo mai mic */
+.site-footer .brand-footer .brand-image{width:150px;height:auto}
+@media(max-width:760px){
+  .hero-copy h1{font-size:clamp(2.3rem,9vw,3rem)}
+  .numbers strong{font-size:2rem}
+  .section-intro h2,.section h2,.editorial-copy h2,.ending h2,.contact-connect h2{font-size:clamp(1.7rem,7vw,2.2rem)}
+  .location-card h3,.contact-location h3{font-size:1.6rem}
+  .loc-block h2{font-size:1.9rem}
+  .contact-connect{padding:36px 0 20px}
+  .contact-methods a strong{font-size:1.15rem}
+  .site-footer .brand-footer .brand-image{width:130px}
+}
