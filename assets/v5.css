@@ -385,7 +385,7 @@ details.mc-section:not([open]){margin-bottom:14px}
 .contact-photo{margin-bottom:40px}
 .contact-connect{padding:56px 0}
 .gallery-category:last-child{padding-bottom:16px}
-.strip-cta{margin:0 0 32px;padding:32px 0}
+.strip-cta{margin:0 auto 32px;padding:32px 0}
 .loc-block{margin:0 0 32px}
 .loc-page{padding-bottom:24px}
 .menu-card{padding-top:40px;margin-bottom:32px}
