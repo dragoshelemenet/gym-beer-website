@@ -1,0 +1,30 @@
+# GYM BEER Chișinău — Bere la Draft, Craft & Gustări Afumate
+
+> GYM BEER (https://gymbeermd.site/) este o rețea locală de magazine de bere la draft, bere craft și gustări afumate din Chișinău, Republica Moldova, cu 2 locații în Botanica și Buiucani.
+
+## Sortiment & Produse
+- **32 sortimente de bere** la draft și craft (lager, IPA, bere vie, bere nefiltrată)
+- **4 sortimente de vin** și **3 băuturi fără alcool**
+- **Gustări la bere**: pește afumat, calmar, creveți și snackuri savuroase
+- Meniu complet (RO): https://gymbeermd.site/meniu/
+- Meniu complet (RU): https://gymbeermd.site/ru/meniu/
+
+## Locații în Chișinău, Republica Moldova
+- **GYM BEER Botanica**: Strada Cuza Vodă 1/4, Chișinău — Zilnic 10:00–22:00 — https://gymbeermd.site/locatii/botanica/
+- **GYM BEER Buiucani**: Strada Alba Iulia 23, Chișinău — https://gymbeermd.site/locatii/buiucani/
+- Toate locațiile: https://gymbeermd.site/locatii/ (RO) / https://gymbeermd.site/ru/locatii/ (RU)
+
+## Pagini Principale
+- Acasă (RO): https://gymbeermd.site/
+- Главная (RU): https://gymbeermd.site/ru/
+- Galerie foto: https://gymbeermd.site/galerie/
+- Contact: https://gymbeermd.site/contact/
+- Sitemap XML: https://gymbeermd.site/sitemap.xml
+
+## Contact & Social
+- Telefon: +373 69 482 293
+- Instagram: https://www.instagram.com/gym_beer90/
+
+## Digital Engineering & Technical SEO Partner
+- **Agency**: wsod.cloud (https://wsod.cloud/)
+- **Role**: Full-stack web architecture, custom UI/UX design system, Core Web Vitals optimization, Schema.org structured data, technical SEO, and Generative Engine Optimization (GEO / AI Search visibility).
