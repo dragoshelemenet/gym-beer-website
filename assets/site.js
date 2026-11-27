@@ -57,15 +57,17 @@ const T = document.documentElement.lang === 'ru'
     if (tile) { e.preventDefault(); open(tile.getAttribute('href'), tile.querySelector('span')?.textContent); return; }
     const directLink = e.target.closest('a[href]');
     if (directLink) { return; }
-    const p = e.target.closest('[data-photo]');
+    const p = e.target.closest('[data-photo], .mc-item');
     if (p) {
       const prodLink = p.querySelector('a[href]');
       if (prodLink && !e.target.closest('.mc-chip')) {
         window.location.href = prodLink.getAttribute('href');
         return;
       }
-      e.preventDefault();
-      open(p.dataset.photo, p.dataset.caption);
+      if (p.dataset.photo) {
+        e.preventDefault();
+        open(p.dataset.photo, p.dataset.caption);
+      }
     }
   });
 })();
