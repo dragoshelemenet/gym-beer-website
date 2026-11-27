@@ -57,6 +57,16 @@ const T = document.documentElement.lang === 'ru'
     if (tile) { e.preventDefault(); open(tile.getAttribute('href'), tile.querySelector('span')?.textContent); return; }
     const directLink = e.target.closest('a[href]');
     if (directLink) { return; }
+    const priceBtn = e.target.closest('.price-info-btn');
+    if (priceBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+      const wasOpen = priceBtn.classList.contains('is-open');
+      document.querySelectorAll('.price-info-btn.is-open').forEach(b => b.classList.remove('is-open'));
+      if (!wasOpen) priceBtn.classList.add('is-open');
+      return;
+    }
+    document.querySelectorAll('.price-info-btn.is-open').forEach(b => b.classList.remove('is-open'));
     const p = e.target.closest('[data-photo], .mc-item');
     if (p) {
       const prodLink = p.querySelector('a[href]');

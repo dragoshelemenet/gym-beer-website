@@ -221,7 +221,16 @@ main .editorial-copy .eyebrow,main .contact-connect .eyebrow{border-color:#d9c9a
 .mc-line{display:flex;align-items:baseline;gap:8px}
 .mc-name{font-weight:700;font-size:.98rem;color:var(--ink);display:inline-flex;align-items:center;gap:7px}
 .mc-dots{flex:1;border-bottom:2px dotted #a8956c;transform:translateY(-4px);min-width:18px}
-.mc-price{font-weight:750;font-size:.9rem;white-space:nowrap;color:#3c3424}
+.mc-price{font-weight:750;font-size:.9rem;white-space:nowrap;color:#3c3424;display:inline-flex;align-items:center;gap:5px}
+.price-info-btn{position:relative;display:inline-grid;place-items:center;width:16px;height:16px;padding:0;margin-left:3px;border:1.5px solid #8a7a55;border-radius:50%;background:#fbf7ec;color:#5c4f33;font-family:var(--font-serif);font-style:italic;font-weight:700;font-size:.72rem;line-height:1;cursor:help;vertical-align:middle;flex:none;transition:background .15s,border-color .15s,color .15s}
+.price-info-btn:hover,.price-info-btn:focus-visible,.price-info-btn.is-open{background:#f0b43c;border-color:var(--ink);color:var(--ink);outline:none}
+.price-info-tip{position:absolute;right:0;bottom:calc(100% + 8px);z-index:40;width:max-content;max-width:220px;padding:6px 10px;border-radius:7px;background:var(--ink);color:#f6efe0;border:1.5px solid #d2a557;box-shadow:0 8px 18px rgba(29,36,30,.28);font-family:var(--font-sans);font-style:normal;font-size:.72rem;font-weight:600;line-height:1.35;letter-spacing:0;white-space:normal;text-align:left;pointer-events:none;opacity:0;transform:translateY(4px);transition:opacity .15s,transform .15s}
+.price-info-tip::after{content:"";position:absolute;right:5px;top:100%;border:5px solid transparent;border-top-color:var(--ink)}
+.price-info-btn:hover .price-info-tip,.price-info-btn:focus-visible .price-info-tip,.price-info-btn.is-open .price-info-tip{opacity:1;transform:translateY(0)}
+.loc-facts .price-info-tip{right:auto;left:50%;transform:translate(-50%,4px)}
+.loc-facts .price-info-tip::after{right:auto;left:50%;transform:translateX(-50%)}
+.loc-facts .price-info-btn:hover .price-info-tip,.loc-facts .price-info-btn:focus-visible .price-info-tip,.loc-facts .price-info-btn.is-open .price-info-tip{transform:translate(-50%,0)}
+@media print{.price-info-btn{display:none!important}}
 .mc-desc{margin:2px 0 0;font-size:.78rem;color:#6d6248;line-height:1.4}
 .mc-chip{font-size:.55rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:#f0b43c;border:1.2px solid var(--ink);border-radius:999px;padding:1px 6px}
 .mc-foot{margin-top:20px;padding-top:20px;border-top:2px dashed #9b8a66;text-align:center;font-size:.76rem;color:#6d6248}
