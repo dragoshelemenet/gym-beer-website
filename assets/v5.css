@@ -400,9 +400,11 @@ details.mc-section:not([open]){margin-bottom:14px}
   .loc-page{padding-bottom:40px}
 }
 
-/* Locații: antet compact pe un rând */
-.loc-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px 32px;margin:0 0 24px}
+/* Locații & Pagini Produs: antet compact, descriere lată (nu îngustă pe 515px) */
+.loc-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px 32px;margin:0 0 18px}
+.loc-head>div{flex:1 1 100%;min-width:0}
 .loc-head h1{font-size:clamp(2rem,3.4vw,3.2rem);margin:6px 0 0;line-height:1.05}
+.loc-head .lead{max-width:960px;width:100%;margin:10px 0 0;font-size:clamp(.96rem,1.25vw,1.08rem);line-height:1.55}
 .loc-head .loc-jump{margin:0}
 .loc-head + .loc-block{margin-top:0}
 @media(max-width:760px){.loc-head{margin-bottom:18px}.loc-head h1{font-size:clamp(1.8rem,8vw,2.4rem)}}
