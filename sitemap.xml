@@ -51,6 +51,48 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/contact/" />
   </url>
   <url>
+    <loc>https://gymbeermd.site/bere-la-draft-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-la-draft-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/razlivnoe-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-la-draft-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/bere-craft-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-craft-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/kraftovoe-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-craft-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/peste-afumat-gustari-bere-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/peste-afumat-gustari-bere-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/kopchenaya-ryba-zakuski-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/peste-afumat-gustari-bere-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/bere-fara-alcool-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-fara-alcool-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/bezalkogolnoe-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-fara-alcool-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/bere-la-pachet-pet-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-la-pachet-pet-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/pivo-na-vynos-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-la-pachet-pet-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ghid-asociere-bere-gustari/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/ghid-asociere-bere-gustari/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/gid-pivo-i-zakuski/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/ghid-asociere-bere-gustari/" />
+  </url>
+  <url>
     <loc>https://gymbeermd.site/ru/</loc>
     <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/" />
@@ -98,5 +140,47 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/contact/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/contact/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/contact/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/razlivnoe-pivo-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-la-draft-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/razlivnoe-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-la-draft-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/kraftovoe-pivo-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-craft-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/kraftovoe-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-craft-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/kopchenaya-ryba-zakuski-pivo-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/peste-afumat-gustari-bere-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/kopchenaya-ryba-zakuski-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/peste-afumat-gustari-bere-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/bezalkogolnoe-pivo-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-fara-alcool-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/bezalkogolnoe-pivo-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-fara-alcool-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/pivo-na-vynos-chisinau/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/bere-la-pachet-pet-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/pivo-na-vynos-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/bere-la-pachet-pet-chisinau/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/gid-pivo-i-zakuski/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/ghid-asociere-bere-gustari/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/gid-pivo-i-zakuski/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/ghid-asociere-bere-gustari/" />
   </url>
 </urlset>

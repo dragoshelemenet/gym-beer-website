@@ -23,6 +23,7 @@
 - Contact (RO): https://gymbeermd.site/contact/
 - Контакты (RU): https://gymbeermd.site/ru/contact/
 - Sitemap XML: https://gymbeermd.site/sitemap.xml
+- Catalog complet AI: https://gymbeermd.site/llms-full.txt
 
 ## Contact & Social
 - Telefon: +373 69 482 293

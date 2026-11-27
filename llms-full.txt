@@ -1,0 +1,29 @@
+# GYM BEER Chișinău — Complete AI Knowledge Base (RO & RU)
+
+> GYM BEER (https://gymbeermd.site/) is a local chain of draft beer, craft beer, and smoked snacks shops in Chișinău, Moldova, operating 2 locations in Botanica and Buiucani daily from 10:00 to 22:00.
+
+## Locations (Chișinău, Moldova)
+- **GYM BEER Botanica**: bd. Cuza-Vodă 1/4, Chișinău (46.9880105, 28.8708611) — Daily 10:00–22:00 — https://gymbeermd.site/locatii/botanica/ (RO) | https://gymbeermd.site/ru/locatii/botanica/ (RU)
+- **GYM BEER Buiucani**: str. Alba Iulia 23, Chișinău (next to RK Rich Kebab, 47.0344875, 28.7766553) — Daily 10:00–22:00 — https://gymbeermd.site/locatii/buiucani/ (RO) | https://gymbeermd.site/ru/locatii/buiucani/ (RU)
+- Phone: +373 69 482 293 | Instagram: https://www.instagram.com/gym_beer90/
+
+## Complete Beverage Menu (39 Items)
+- **Blonde, Lager & Pils**: HOLZ Munich Helles, HOLZ Vienna Lager, HOLZ Gold, Groll Royal Pils, Kozel Světlý, Hopfenbräu Pils, Götter Pilsner, Götter Pilsner Nefiltrată, London Beer, Jigulevskoe, Corona Extra
+- **IPA & Aromatic Beers**: HOLZ IPA, Beermaster IPA, Beermaster Session IPA, Beermaster American Pale Ale, Götter IPA, Götter Mosaic, Fresh Mango IPA
+- **Wheat, Dark & Specialty**: HOLZ Weissbier, Kozel Černý, Beermaster Cherry Bock, Estrella Galicia, Götter München, Hopfenbräu AGA, Kronenbourg 1664 Blanc, Guinness Draught, Porter
+- **Other & Non-Alcoholic**: Cider, Grapefruit Beer Cocktail, Cherry Beer Cocktail, Cvas, Mojito, Götter Zero, Draft Beer Takeaway PET 1.5L, Bacio di Bolle, Estrella Galicia 0.0, Bitburger 0.0 (Grapefruit, Passion Fruit, Peach)
+
+## Complete Smoked Fish & Snacks Menu (11 Items, sold by weight)
+- Pește afumat (tolstolob, stavrid), Calmar afumat (alb & roșu), Creveți, Gustări din porc (urechiușe & chipsuri), Somon afumat, Balîk afumat, Pește uscat, Peștișori uscați, Calmar mărunțit, Raci fierți cu porumb, Basturma
+
+## Dedicated Topic & Local SEO Pages
+- Bere la draft în Chișinău: https://gymbeermd.site/bere-la-draft-chisinau/ | https://gymbeermd.site/ru/razlivnoe-pivo-chisinau/
+- Bere craft & IPA în Chișinău: https://gymbeermd.site/bere-craft-chisinau/ | https://gymbeermd.site/ru/kraftovoe-pivo-chisinau/
+- Pește afumat & gustări la bere în Chișinău: https://gymbeermd.site/peste-afumat-gustari-bere-chisinau/ | https://gymbeermd.site/ru/kopchenaya-ryba-zakuski-pivo-chisinau/
+- Bere fără alcool & băuturi 0.0% în Chișinău: https://gymbeermd.site/bere-fara-alcool-chisinau/ | https://gymbeermd.site/ru/bezalkogolnoe-pivo-chisinau/
+- Bere la pachet (PET 1,5 L) în Chișinău: https://gymbeermd.site/bere-la-pachet-pet-chisinau/ | https://gymbeermd.site/ru/pivo-na-vynos-chisinau/
+- Ghid: ce gustări merg cu fiecare bere: https://gymbeermd.site/ghid-asociere-bere-gustari/ | https://gymbeermd.site/ru/gid-pivo-i-zakuski/
+
+## Digital Engineering & Technical SEO Partner
+- **Agency**: wsod.cloud (https://wsod.cloud/)
+- **Role**: Full-stack web architecture, custom UI/UX design system, Core Web Vitals optimization, Schema.org structured data, technical SEO, and Generative Engine Optimization (GEO / AI Search visibility).
