@@ -355,6 +355,67 @@ document.querySelectorAll('.lang-switch a').forEach(a => a.addEventListener('cli
       window.fbq?.('track', 'Lead', { channel: 'social', page_path: location.pathname }, { eventID: eid });
     }
   }, { passive: true });
+  function openPolicyModal() {
+    document.getElementById('gb-cookie-policy-modal')?.remove();
+    const m = document.createElement('div');
+    m.id = 'gb-cookie-policy-modal';
+    m.setAttribute('role', 'dialog');
+    m.setAttribute('aria-modal', 'true');
+    m.style.cssText = 'position:fixed;inset:0;z-index:10000;background:rgba(20,24,20,0.68);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:16px;font-family:Inter,system-ui,sans-serif';
+    m.innerHTML = isRu ? `
+      <div style="max-width:620px;width:100%;max-height:86vh;overflow-y:auto;background:#fbf8f0;color:#1f2a22;border:2px solid #1f2a22;border-radius:12px;padding:22px 24px;box-shadow:6px 6px 0 #d2a557">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px">
+          <h2 style="margin:0;font-size:19px">Политика конфиденциальности и Cookies (Закон РМ № 133/2011)</h2>
+          <button type="button" data-close="1" style="border:1.5px solid #1f2a22;background:#efe2c6;border-radius:6px;padding:4px 10px;font-weight:800;cursor:pointer">✕</button>
+        </div>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 10px"><strong>1. Общие сведения:</strong> Сайт <strong>gymbeermd.site</strong> (магазины GYM BEER, мун. Кишинёв, ул. Куза Водэ 1/4 и ул. Алба Юлия 23, тел. +373 69 482 293) является информационной витриной и не собирает персональные данные через онлайн-формы.</p>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 10px"><strong>2. Техническое хранение (необходимое):</strong> Ключ <code>gymbeer_cookie_consent_v2</code> в <code>localStorage</code> сохраняет ваш выбор («accepted» или «rejected») и не передаёт данные третьим лицам.</p>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 10px"><strong>3. Опциональные аналитические и рекламные cookies (только по согласию Opt-In — «Принять»):</strong> По умолчанию все рекламные модули заблокированы (Google Consent Mode v2: <code>denied</code>). Только если вы нажимаете «Принять», могут использоваться: <code>_ga</code> (Google Analytics 4 — анонимная статистика посещений, до 13–24 мес.), <code>_gcl_au</code> (Google Ads — 90 дней) и <code>_fbp</code> / <code>_fbc</code> (Meta Pixel — оценка эффективности рекламы в Instagram/Facebook и учёт звонков/переходов в карты, 90 дней). При выборе «Только необходимые» эти cookies не загружаются и удаляются.</p>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 14px"><strong>4. Ваши права (Закон № 133/2011):</strong> Вы можете в любой момент изменить или отозвать согласие кнопкой ниже, а также обратиться по тел. +373 69 482 293 или в надзорный орган <strong>CNPDCP (datepersonale.md)</strong>.</p>
+        <div style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap">
+          <button type="button" data-reset="1" style="padding:7px 14px;border-radius:6px;border:1.5px solid #1f2a22;background:#efe2c6;color:#1f2a22;font-weight:700;cursor:pointer">Сбросить выбор Cookies</button>
+          <button type="button" data-close="1" style="padding:7px 16px;border-radius:6px;border:1.5px solid #1f2a22;background:#1f2a22;color:#f3e6c9;font-weight:700;cursor:pointer">Понятно</button>
+        </div>
+      </div>` : `
+      <div style="max-width:620px;width:100%;max-height:86vh;overflow-y:auto;background:#fbf8f0;color:#1f2a22;border:2px solid #1f2a22;border-radius:12px;padding:22px 24px;box-shadow:6px 6px 0 #d2a557">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px">
+          <h2 style="margin:0;font-size:19px">Politica de Confidențialitate &amp; Cookies (Legea nr. 133/2011 RM)</h2>
+          <button type="button" data-close="1" style="border:1.5px solid #1f2a22;background:#efe2c6;border-radius:6px;padding:4px 10px;font-weight:800;cursor:pointer">✕</button>
+        </div>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 10px"><strong>1. Informații generale:</strong> Site-ul <strong>gymbeermd.site</strong> (magazinele GYM BEER, mun. Chișinău, Str. Cuza Vodă 1/4 și Str. Alba Iulia 23, tel. +373 69 482 293) este o pagină informativă de prezentare și nu colectează date personale prin formulare online.</p>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 10px"><strong>2. Stocare tehnică strict necesară:</strong> Cheia <code>gymbeer_cookie_consent_v2</code> din <code>localStorage</code> reține local opțiunea ta („accepted” sau „rejected”) ca să nu îți reafișăm bara la fiecare pagină.</p>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 10px"><strong>3. Cookies opționale de statistică și marketing (strict cu consimțământ Opt-In — „Acceptă”):</strong> În mod implicit, orice modul publicitar este blocat (Google Consent Mode v2: <code>denied</code>). Exclusiv dacă apeși „Acceptă”, se pot activa: <code>_ga</code> (Google Analytics 4 — statistici anonime de trafic, max. 13–24 luni), <code>_gcl_au</code> (Google Ads — 90 zile) și <code>_fbp</code> / <code>_fbc</code> (Meta Pixel — măsurarea eficienței reclamelor pe Instagram/Facebook și numărarea apelurilor sau deschiderilor locației pe hartă, 90 zile). Dacă alegi „Doar Necesare”, niciun cookie de marketing nu este setat.</p>
+        <p style="font-size:13.5px;line-height:1.55;margin:0 0 14px"><strong>4. Drepturile tale (Legea nr. 133/2011):</strong> Îți poți retrage sau modifica oricând acordul cu butonul de mai jos, ne poți contacta la +373 69 482 293 sau te poți adresa <strong>Centrului Național pentru Protecția Datelor cu Caracter Personal (CNPDCP — datepersonale.md)</strong>.</p>
+        <div style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap">
+          <button type="button" data-reset="1" style="padding:7px 14px;border-radius:6px;border:1.5px solid #1f2a22;background:#efe2c6;color:#1f2a22;font-weight:700;cursor:pointer">Resetează / Retrage Consimțământul</button>
+          <button type="button" data-close="1" style="padding:7px 16px;border-radius:6px;border:1.5px solid #1f2a22;background:#1f2a22;color:#f3e6c9;font-weight:700;cursor:pointer">Închide</button>
+        </div>
+      </div>`;
+    m.addEventListener('click', ev => {
+      if (ev.target === m || ev.target.closest('[data-close]')) m.remove();
+      if (ev.target.closest('[data-reset]')) {
+        try { localStorage.removeItem(CONSENT_KEY); } catch {}
+        clearMarketingCookies();
+        m.remove();
+        renderBanner();
+      }
+    });
+    document.body.appendChild(m);
+  }
+  window.openGymBeerCookiePolicy = openPolicyModal;
+
+  // Adaugă link discret „Cookies & Confidențialitate” în subsolul tuturor paginilor
+  const footerBase = document.querySelector('.footer-base');
+  if (footerBase && !footerBase.querySelector('[data-cookie-link]')) {
+    const lk = document.createElement('button');
+    lk.type = 'button';
+    lk.setAttribute('data-cookie-link', '1');
+    lk.style.cssText = 'background:none;border:none;color:inherit;text-decoration:underline;cursor:pointer;font:inherit;padding:0;opacity:0.88';
+    lk.textContent = isRu ? 'Cookies и конфиденциальность' : 'Cookies & Confidențialitate';
+    lk.addEventListener('click', openPolicyModal);
+    footerBase.appendChild(lk);
+  }
+
   function renderBanner() {
     document.getElementById('wsod-cookie-bar')?.remove();
     const bar = document.createElement('aside');
@@ -362,8 +423,9 @@ document.querySelectorAll('.lang-switch a').forEach(a => a.addEventListener('cli
     bar.setAttribute('role', 'region');
     bar.setAttribute('aria-label', isRu ? 'Настройки cookie' : 'Preferințe cookies');
     bar.style.cssText = 'position:fixed;bottom:18px;left:50%;transform:translateX(-50%);width:min(740px,calc(100vw - 28px));z-index:9999;padding:13px 18px;border-radius:9px;background:#efe2c6;color:#1f2a22;border:2px solid #1f2a22;outline:1.5px solid rgba(31,42,34,0.35);outline-offset:-6px;box-shadow:4px 4px 0 #d2a557,0 14px 28px rgba(29,36,30,0.22);font-family:Inter,system-ui,sans-serif;font-size:12.5px;line-height:1.45';
-    bar.innerHTML = `<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px"><div style="flex:1 1 390px"><span style="display:inline-block;background:#f0b43c;color:#1f2a22;border:1.5px solid #1f2a22;border-radius:999px;padding:2px 9px;font-size:10.5px;font-weight:800;letter-spacing:.08em;margin-right:7px">COOKIES</span>${isRu ? 'Мы используем технически необходимые файлы cookie и, только с вашего согласия, статистику и оценку рекламы (Google / Meta).' : 'Folosim cookies strict necesare funcționării site-ului și, doar cu acordul tău, statistici și măsurarea reclamelor (Google / Meta).'}</div><div style="display:flex;gap:8px;align-items:center;margin-left:auto"><button type="button" data-consent="rejected" style="padding:7px 13px;border-radius:5px;border:1.5px solid #1f2a22;background:#fbf8f0;color:#1f2a22;font-size:12px;font-weight:700;cursor:pointer">${isRu ? 'Только необходимые' : 'Doar Necesare'}</button><button type="button" data-consent="accepted" style="padding:7px 15px;border-radius:5px;border:1.5px solid #1f2a22;background:#1f2a22;color:#f3e6c9;box-shadow:3px 3px 0 #d2a557;font-size:12px;font-weight:700;cursor:pointer">${isRu ? 'Принять' : 'Acceptă'}</button></div></div>`;
+    bar.innerHTML = `<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px"><div style="flex:1 1 390px"><span style="display:inline-block;background:#f0b43c;color:#1f2a22;border:1.5px solid #1f2a22;border-radius:999px;padding:2px 9px;font-size:10.5px;font-weight:800;letter-spacing:.08em;margin-right:7px">COOKIES</span>${isRu ? 'Мы используем технически необходимые файлы cookie и, только с вашего согласия, статистику и оценку рекламы (Google / Meta).' : 'Folosim cookies strict necesare funcționării site-ului și, doar cu acordul tău, statistici și măsurarea reclamelor (Google / Meta).'} <button type="button" data-policy="1" style="background:none;border:none;padding:0;color:#1f2a22;font-weight:800;text-decoration:underline;cursor:pointer;font-size:12.5px">${isRu ? 'Политика Cookies' : 'Politica Cookies'}</button>.</div><div style="display:flex;gap:8px;align-items:center;margin-left:auto"><button type="button" data-consent="rejected" style="padding:7px 13px;border-radius:5px;border:1.5px solid #1f2a22;background:#fbf8f0;color:#1f2a22;font-size:12px;font-weight:700;cursor:pointer">${isRu ? 'Только необходимые' : 'Doar Necesare'}</button><button type="button" data-consent="accepted" style="padding:7px 15px;border-radius:5px;border:1.5px solid #1f2a22;background:#1f2a22;color:#f3e6c9;box-shadow:3px 3px 0 #d2a557;font-size:12px;font-weight:700;cursor:pointer">${isRu ? 'Принять' : 'Acceptă'}</button></div></div>`;
     bar.addEventListener('click', ev => {
+      if (ev.target.closest('[data-policy]')) { openPolicyModal(); return; }
       const btn = ev.target.closest('button[data-consent]'); if (!btn) return;
       const choice = btn.dataset.consent;
       try { localStorage.setItem(CONSENT_KEY, choice); } catch {}
