@@ -25,6 +25,9 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
 User-agent: ClaudeBot
 Allow: /
 
