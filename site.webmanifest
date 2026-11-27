@@ -1,0 +1,17 @@
+{
+  "name": "GYM BEER Chișinău — Bere vie la draft, Craft & Gustări",
+  "short_name": "GYM BEER",
+  "description": "Bere vie la draft, craft și gustări în Chișinău — Botanica (str. Cuza Vodă 1/4) & Buiucani (str. Alba Iulia 23/2), zilnic 10:00–22:00.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f2eb",
+  "theme_color": "#111111",
+  "lang": "ro-MD",
+  "icons": [
+    {
+      "src": "/assets/brand/og-cover.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg"
+    }
+  ]
+}
