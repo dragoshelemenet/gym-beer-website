@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://gymbeermd.site/</loc>
     <lastmod>2026-11-27</lastmod>
@@ -189,6 +190,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-munich-helles/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-munich-helles/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-munich-helles/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/holz-taps-snack-1600.webp</image:loc>
+      <image:title>HOLZ Munich Helles — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/holz-munich-helles/</loc>
@@ -196,6 +201,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-munich-helles/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-munich-helles/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-munich-helles/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/holz-taps-snack-1600.webp</image:loc>
+      <image:title>HOLZ Munich Helles — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/holz-ipa/</loc>
@@ -203,6 +212,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/holz-taps-snack-1600.webp</image:loc>
+      <image:title>HOLZ IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/holz-ipa/</loc>
@@ -210,6 +223,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/holz-taps-snack-1600.webp</image:loc>
+      <image:title>HOLZ IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/holz-weissbier/</loc>
@@ -217,6 +234,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-weissbier/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-weissbier/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-weissbier/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-weissbier-1200.webp</image:loc>
+      <image:title>HOLZ Weissbier — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/holz-weissbier/</loc>
@@ -224,6 +245,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-weissbier/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-weissbier/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-weissbier/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-weissbier-1200.webp</image:loc>
+      <image:title>HOLZ Weissbier — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/kozel-svetly/</loc>
@@ -231,6 +256,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/kozel-svetly/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/kozel-svetly/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/kozel-svetly/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-kozel-svetly-1200.jpg</image:loc>
+      <image:title>Kozel Světlý — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/kozel-svetly/</loc>
@@ -238,6 +267,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/kozel-svetly/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/kozel-svetly/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/kozel-svetly/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-kozel-svetly-1200.jpg</image:loc>
+      <image:title>Kozel Světlý — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/corona-extra/</loc>
@@ -245,6 +278,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/corona-extra/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/corona-extra/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/corona-extra/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-37-corona-in-hand-1200.jpg</image:loc>
+      <image:title>Corona Extra — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/corona-extra/</loc>
@@ -252,6 +289,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/corona-extra/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/corona-extra/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/corona-extra/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-37-corona-in-hand-1200.jpg</image:loc>
+      <image:title>Corona Extra — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/kronenbourg-1664-blanc/</loc>
@@ -259,6 +300,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/kronenbourg-1664-blanc/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/kronenbourg-1664-blanc/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/kronenbourg-1664-blanc/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-40-1664-blanc-in-hand-1200.jpg</image:loc>
+      <image:title>Kronenbourg 1664 Blanc — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/kronenbourg-1664-blanc/</loc>
@@ -266,6 +311,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/kronenbourg-1664-blanc/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/kronenbourg-1664-blanc/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/kronenbourg-1664-blanc/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-40-1664-blanc-in-hand-1200.jpg</image:loc>
+      <image:title>Kronenbourg 1664 Blanc — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/estrella-galicia/</loc>
@@ -273,6 +322,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/estrella-galicia/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/estrella-galicia/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/estrella-galicia/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-29-estrella-galicia-trio-1200.jpg</image:loc>
+      <image:title>Estrella Galicia — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/estrella-galicia/</loc>
@@ -280,6 +333,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/estrella-galicia/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/estrella-galicia/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/estrella-galicia/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-29-estrella-galicia-trio-1200.jpg</image:loc>
+      <image:title>Estrella Galicia — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/guinness-draught/</loc>
@@ -287,6 +344,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/guinness-draught/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/guinness-draught/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/guinness-draught/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-35-guinness-energy-cans-1200.jpg</image:loc>
+      <image:title>Guinness Draught — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/guinness-draught/</loc>
@@ -294,6 +355,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/guinness-draught/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/guinness-draught/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/guinness-draught/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-35-guinness-energy-cans-1200.jpg</image:loc>
+      <image:title>Guinness Draught — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/bitburger-zero/</loc>
@@ -301,6 +366,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/bitburger-zero/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/bitburger-zero/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/bitburger-zero/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-36-bitburger-zero-trio-1200.jpg</image:loc>
+      <image:title>Bitburger 0.0% (Grapefruit · Piersică · Fructul pasiunii) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/bitburger-zero/</loc>
@@ -308,6 +377,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/bitburger-zero/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/bitburger-zero/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/bitburger-zero/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-36-bitburger-zero-trio-1200.jpg</image:loc>
+      <image:title>Bitburger 0.0% (Грейпфрут · Персик · Маракуйя) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/somon-peste-afumat/</loc>
@@ -315,6 +388,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/somon-peste-afumat/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/somon-peste-afumat/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/somon-peste-afumat/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-55-salmon-board-1200.jpg</image:loc>
+      <image:title>Somon afumat &amp; Pește afumat GYM BEER — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/somon-peste-afumat/</loc>
@@ -322,6 +399,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/somon-peste-afumat/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/somon-peste-afumat/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/somon-peste-afumat/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-55-salmon-board-1200.jpg</image:loc>
+      <image:title>Копчёный лосось и копчёная рыба GYM BEER — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/kozel-cerny/</loc>
@@ -329,6 +410,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/kozel-cerny/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/kozel-cerny/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/kozel-cerny/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-59-dark-beer-mug-1376.jpg</image:loc>
+      <image:title>Kozel Černý — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/kozel-cerny/</loc>
@@ -336,6 +421,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/kozel-cerny/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/kozel-cerny/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/kozel-cerny/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-59-dark-beer-mug-1376.jpg</image:loc>
+      <image:title>Kozel Černý — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/beermaster-ipa/</loc>
@@ -343,6 +432,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Beermaster IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/beermaster-ipa/</loc>
@@ -350,6 +443,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Beermaster IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/beermaster-cherry-bock/</loc>
@@ -357,6 +454,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-cherry-bock/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-cherry-bock/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-cherry-bock/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-beermaster-cherry-bock-1200.webp</image:loc>
+      <image:title>Beermaster Cherry Bock — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/beermaster-cherry-bock/</loc>
@@ -364,6 +465,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-cherry-bock/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-cherry-bock/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-cherry-bock/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-beermaster-cherry-bock-1200.webp</image:loc>
+      <image:title>Beermaster Cherry Bock — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/gotter-pilsner/</loc>
@@ -371,6 +476,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-pilsner/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-pilsner/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-pilsner/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-filtered-1200.webp</image:loc>
+      <image:title>Götter Pilsner (Filtrată &amp; Nefiltrată) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/gotter-pilsner/</loc>
@@ -378,6 +487,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-pilsner/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-pilsner/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-pilsner/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-filtered-1200.webp</image:loc>
+      <image:title>Götter Pilsner (Фильтрованное и Нефильтрованное) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/gotter-ipa/</loc>
@@ -385,6 +498,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Götter IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/gotter-ipa/</loc>
@@ -392,6 +509,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Götter IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/gotter-munchen/</loc>
@@ -399,6 +520,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-munchen/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-munchen/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-munchen/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-vienna-munich-lager-1200.webp</image:loc>
+      <image:title>Götter München — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/gotter-munchen/</loc>
@@ -406,6 +531,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-munchen/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-munchen/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-munchen/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-vienna-munich-lager-1200.webp</image:loc>
+      <image:title>Götter München — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/hopfenbrau-pils/</loc>
@@ -413,6 +542,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/hopfenbrau-pils/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/hopfenbrau-pils/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/hopfenbrau-pils/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-filtered-1200.webp</image:loc>
+      <image:title>Hopfenbräu Pils — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/hopfenbrau-pils/</loc>
@@ -420,6 +553,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/hopfenbrau-pils/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/hopfenbrau-pils/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/hopfenbrau-pils/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-filtered-1200.webp</image:loc>
+      <image:title>Hopfenbräu Pils — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/porter/</loc>
@@ -427,6 +564,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/porter/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/porter/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/porter/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-31-porter-amber-lager-1200.jpg</image:loc>
+      <image:title>Porter (Bere brună la sticlă) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/porter/</loc>
@@ -434,6 +575,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/porter/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/porter/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/porter/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-31-porter-amber-lager-1200.jpg</image:loc>
+      <image:title>Porter (Тёмный портер в стекле) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/calmar-afumat/</loc>
@@ -441,6 +586,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/calmar-afumat/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/calmar-afumat/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/calmar-afumat/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/calamari-snack-trays-1600.webp</image:loc>
+      <image:title>Calmar afumat (Alb &amp; Roșu) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/calmar-afumat/</loc>
@@ -448,6 +597,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/calmar-afumat/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/calmar-afumat/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/calmar-afumat/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/calamari-snack-trays-1600.webp</image:loc>
+      <image:title>Копчёный кальмар (Белый и Красный) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/creveti/</loc>
@@ -455,6 +608,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/creveti/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/creveti/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/creveti/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/shrimp-tray-1600.webp</image:loc>
+      <image:title>Creveți la bere — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/creveti/</loc>
@@ -462,6 +619,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/creveti/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/creveti/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/creveti/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/shrimp-tray-1600.webp</image:loc>
+      <image:title>Креветки к пиву — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/raci-fierti/</loc>
@@ -469,6 +630,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/raci-fierti/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/raci-fierti/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/raci-fierti/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-38-boiled-crayfish-1200.jpg</image:loc>
+      <image:title>Raci fierți cu porumb — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/raci-fierti/</loc>
@@ -476,6 +641,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/raci-fierti/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/raci-fierti/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/raci-fierti/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-38-boiled-crayfish-1200.jpg</image:loc>
+      <image:title>Варёные раки с кукурузой — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/basturma/</loc>
@@ -483,6 +652,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/basturma/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/basturma/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/basturma/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-44-basturma-1200.jpg</image:loc>
+      <image:title>Basturma condimentată — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/basturma/</loc>
@@ -490,6 +663,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/basturma/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/basturma/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/basturma/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-44-basturma-1200.jpg</image:loc>
+      <image:title>Пряная бастурма — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/holz-vienna-lager/</loc>
@@ -497,6 +674,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-vienna-lager/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-vienna-lager/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-vienna-lager/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-vienna-munich-lager-1200.webp</image:loc>
+      <image:title>HOLZ Vienna Lager — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/holz-vienna-lager/</loc>
@@ -504,6 +685,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-vienna-lager/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-vienna-lager/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-vienna-lager/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-vienna-munich-lager-1200.webp</image:loc>
+      <image:title>HOLZ Vienna Lager — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/holz-gold/</loc>
@@ -511,6 +696,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-gold/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-gold/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-gold/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/holz-taps-snack-1600.webp</image:loc>
+      <image:title>HOLZ Gold — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/holz-gold/</loc>
@@ -518,6 +707,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/holz-gold/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/holz-gold/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/holz-gold/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/holz-taps-snack-1600.webp</image:loc>
+      <image:title>HOLZ Gold — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/groll-royal-pils/</loc>
@@ -525,6 +718,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/groll-royal-pils/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/groll-royal-pils/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/groll-royal-pils/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-groll-royal-pils-1200.jpg</image:loc>
+      <image:title>Groll Royal Pils — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/groll-royal-pils/</loc>
@@ -532,6 +729,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/groll-royal-pils/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/groll-royal-pils/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/groll-royal-pils/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-groll-royal-pils-1200.jpg</image:loc>
+      <image:title>Groll Royal Pils — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/gotter-pilsner-nefiltrata/</loc>
@@ -539,6 +740,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-pilsner-nefiltrata/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-pilsner-nefiltrata/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-pilsner-nefiltrata/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-unfiltered-1200.webp</image:loc>
+      <image:title>Götter Pilsner Nefiltrată — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/gotter-pilsner-nefiltrata/</loc>
@@ -546,6 +751,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-pilsner-nefiltrata/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-pilsner-nefiltrata/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-pilsner-nefiltrata/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-unfiltered-1200.webp</image:loc>
+      <image:title>Götter Pilsner Нефильтрованное — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/london-beer/</loc>
@@ -553,6 +762,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/london-beer/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/london-beer/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/london-beer/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/beer-dispenser-row-1600.webp</image:loc>
+      <image:title>London Beer — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/london-beer/</loc>
@@ -560,6 +773,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/london-beer/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/london-beer/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/london-beer/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/beer-dispenser-row-1600.webp</image:loc>
+      <image:title>London Beer — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/jigulevskoe/</loc>
@@ -567,6 +784,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/jigulevskoe/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/jigulevskoe/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/jigulevskoe/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-jigulevskoe-1200.jpg</image:loc>
+      <image:title>Jigulevskoe (Жигулёвское) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/jigulevskoe/</loc>
@@ -574,6 +795,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/jigulevskoe/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/jigulevskoe/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/jigulevskoe/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-jigulevskoe-1200.jpg</image:loc>
+      <image:title>Жигулёвское (Jigulevskoe) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/beermaster-session-ipa/</loc>
@@ -581,6 +806,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-session-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-session-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-session-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Beermaster Session IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/beermaster-session-ipa/</loc>
@@ -588,6 +817,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-session-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-session-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-session-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Beermaster Session IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/beermaster-american-pale-ale/</loc>
@@ -595,6 +828,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-american-pale-ale/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-american-pale-ale/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-american-pale-ale/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Beermaster American Pale Ale — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/beermaster-american-pale-ale/</loc>
@@ -602,6 +839,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/beermaster-american-pale-ale/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/beermaster-american-pale-ale/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/beermaster-american-pale-ale/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Beermaster American Pale Ale — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/gotter-mosaic/</loc>
@@ -609,6 +850,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-mosaic/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-mosaic/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-mosaic/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Götter Mosaic — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/gotter-mosaic/</loc>
@@ -616,6 +861,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gotter-mosaic/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gotter-mosaic/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gotter-mosaic/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-craft-ipa-1200.webp</image:loc>
+      <image:title>Götter Mosaic — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/fresh-mango-ipa/</loc>
@@ -623,6 +872,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/fresh-mango-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/fresh-mango-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/fresh-mango-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-fresh-mango-ipa-1200.webp</image:loc>
+      <image:title>Fresh Mango IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/fresh-mango-ipa/</loc>
@@ -630,6 +883,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/fresh-mango-ipa/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/fresh-mango-ipa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/fresh-mango-ipa/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-fresh-mango-ipa-1200.webp</image:loc>
+      <image:title>Fresh Mango IPA — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/hopfenbrau-aga/</loc>
@@ -637,6 +894,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/hopfenbrau-aga/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/hopfenbrau-aga/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/hopfenbrau-aga/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-unfiltered-1200.webp</image:loc>
+      <image:title>Hopfenbräu AGA (American Golden Ale) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/hopfenbrau-aga/</loc>
@@ -644,6 +905,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/hopfenbrau-aga/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/hopfenbrau-aga/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/hopfenbrau-aga/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-pilsner-unfiltered-1200.webp</image:loc>
+      <image:title>Hopfenbräu AGA (American Golden Ale) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/cider-cvas-mojito/</loc>
@@ -651,6 +916,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/cider-cvas-mojito/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/cider-cvas-mojito/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/cider-cvas-mojito/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-cider-cvas-mojito-1200.webp</image:loc>
+      <image:title>Cidru, Cvas tradițional &amp; Mojito — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/cider-cvas-mojito/</loc>
@@ -658,6 +927,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/cider-cvas-mojito/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/cider-cvas-mojito/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/cider-cvas-mojito/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/prod-cider-cvas-mojito-1200.webp</image:loc>
+      <image:title>Сидр, традиционный квас и Мохито — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/bacio-di-bolle/</loc>
@@ -665,6 +938,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/bacio-di-bolle/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/bacio-di-bolle/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/bacio-di-bolle/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-30-bacio-di-bolle-cans-1200.jpg</image:loc>
+      <image:title>Bacio di Bolle (3 arome la doză) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/bacio-di-bolle/</loc>
@@ -672,6 +949,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/bacio-di-bolle/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/bacio-di-bolle/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/bacio-di-bolle/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-30-bacio-di-bolle-cans-1200.jpg</image:loc>
+      <image:title>Bacio di Bolle (3 вкуса в банке) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/peste-uscat-pestisori/</loc>
@@ -679,6 +960,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/peste-uscat-pestisori/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/peste-uscat-pestisori/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/peste-uscat-pestisori/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-56-dried-fish-fan-1200.jpg</image:loc>
+      <image:title>Pește uscat &amp; Peștișori uscați — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/peste-uscat-pestisori/</loc>
@@ -686,6 +971,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/peste-uscat-pestisori/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/peste-uscat-pestisori/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/peste-uscat-pestisori/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-56-dried-fish-fan-1200.jpg</image:loc>
+      <image:title>Сушёная рыба и сушёные рыбки — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/balik-afumat/</loc>
@@ -693,6 +982,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/balik-afumat/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/balik-afumat/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/balik-afumat/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-63-balyk-slices-1200.jpg</image:loc>
+      <image:title>Balîk afumat — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/balik-afumat/</loc>
@@ -700,6 +993,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/balik-afumat/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/balik-afumat/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/balik-afumat/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/gym-63-balyk-slices-1200.jpg</image:loc>
+      <image:title>Копчёный балык — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/meniu/gustari-din-porc/</loc>
@@ -707,6 +1004,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gustari-din-porc/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gustari-din-porc/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gustari-din-porc/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/dried-meat-slices-1600.webp</image:loc>
+      <image:title>Gustări din porc (Urechiușe &amp; Chipsuri) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/meniu/gustari-din-porc/</loc>
@@ -714,6 +1015,10 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/meniu/gustari-din-porc/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/meniu/gustari-din-porc/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/meniu/gustari-din-porc/" />
+      <image:image>
+      <image:loc>https://gymbeermd.site/assets/images/dried-meat-slices-1600.webp</image:loc>
+      <image:title>Свиные закуски (Ушки и мясные чипсы) — GYM BEER Chișinău</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://gymbeermd.site/ghiduri/</loc>
