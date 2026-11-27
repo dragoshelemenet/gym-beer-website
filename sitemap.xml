@@ -23,6 +23,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/locatii/" />
   </url>
   <url>
+    <loc>https://gymbeermd.site/locatii/botanica/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/locatii/botanica/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/locatii/botanica/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/locatii/botanica/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/locatii/buiucani/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/locatii/buiucani/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/locatii/buiucani/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/locatii/buiucani/" />
+  </url>
+  <url>
     <loc>https://gymbeermd.site/galerie/</loc>
     <lastmod>2026-11-27</lastmod>
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/galerie/" />
@@ -56,6 +70,20 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/locatii/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/locatii/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/locatii/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/locatii/botanica/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/locatii/botanica/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/locatii/botanica/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/locatii/botanica/" />
+  </url>
+  <url>
+    <loc>https://gymbeermd.site/ru/locatii/buiucani/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gymbeermd.site/locatii/buiucani/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gymbeermd.site/ru/locatii/buiucani/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gymbeermd.site/locatii/buiucani/" />
   </url>
   <url>
     <loc>https://gymbeermd.site/ru/galerie/</loc>
