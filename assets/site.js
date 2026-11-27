@@ -213,6 +213,45 @@ document.querySelector('.mc-print')?.addEventListener('click', () => window.prin
 
   const h = location.hash.slice(1);
   if (h === "bauturi" || h === "gustari") { set(h); requestAnimationFrame(() => card.scrollIntoView({ block: "start" })); }
+
+  /* Salt la categorie (.mc-jump): evidențiază clar secțiunea țintă + pastila activă. */
+  const jumpLinks = Array.from(card.querySelectorAll('.mc-jump a[href^="#"]'));
+  let hiTimer = 0;
+  const highlightSection = (sec, link) => {
+    if (!sec) return;
+    const part = sec.closest('.mc-part');
+    if (part && card.dataset.show && card.dataset.show !== 'tot' && card.dataset.show !== part.dataset.part) {
+      set('tot');
+    }
+    if (searchInput && searchInput.value.trim()) {
+      searchInput.value = '';
+      applySearch();
+    }
+    sec.open = true;
+    jumpLinks.forEach(a => a.classList.toggle('is-active', a === link));
+    sections.forEach(s => s.classList.remove('is-highlighted'));
+    void sec.offsetWidth;
+    sec.classList.add('is-highlighted');
+    clearTimeout(hiTimer);
+    hiTimer = setTimeout(() => {
+      sec.classList.remove('is-highlighted');
+    }, 3200);
+  };
+
+  jumpLinks.forEach(a => a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (!target) return;
+    e.preventDefault();
+    highlightSection(target, a);
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    history.replaceState(null, '', a.getAttribute('href'));
+  }));
+
+  if (h.startsWith('cat-')) {
+    const initSec = document.getElementById(h);
+    const initLink = jumpLinks.find(a => a.getAttribute('href') === '#' + h);
+    if (initSec) requestAnimationFrame(() => highlightSection(initSec, initLink));
+  }
 })();
 
 /* Galerie: deschisă cu #magazine / #bere / #gustari, sare la secțiunea respectivă după încărcare. */
