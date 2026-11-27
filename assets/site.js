@@ -55,8 +55,18 @@ const T = document.documentElement.lang === 'ru'
   document.addEventListener('click', e => {
     const tile = e.target.closest('.gallery-tile');
     if (tile) { e.preventDefault(); open(tile.getAttribute('href'), tile.querySelector('span')?.textContent); return; }
+    const directLink = e.target.closest('a[href]');
+    if (directLink) { return; }
     const p = e.target.closest('[data-photo]');
-    if (p) { e.preventDefault(); open(p.dataset.photo, p.dataset.caption); }
+    if (p) {
+      const prodLink = p.querySelector('a[href]');
+      if (prodLink && !e.target.closest('.mc-chip')) {
+        window.location.href = prodLink.getAttribute('href');
+        return;
+      }
+      e.preventDefault();
+      open(p.dataset.photo, p.dataset.caption);
+    }
   });
 })();
 
