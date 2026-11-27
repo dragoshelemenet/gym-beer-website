@@ -82,10 +82,89 @@ const T = document.documentElement.lang === 'ru'
 /* Carte meniu: buton de printare. */
 document.querySelector('.mc-print')?.addEventListener('click', () => window.print());
 
-/* Meniu: filtru Tot / Doar băuturi / Doar gustări (se poate deschide direct cu #bauturi sau #gustari). */
+/* Meniu: filtru Tot / Doar băuturi / Doar gustări + căutare live fără diacritice. */
 (() => {
-  const card = document.querySelector('.menu-card'); const tabs = document.querySelectorAll('.mc-filter [data-show]');
+  const card = document.querySelector('.menu-card');
+  const tabs = document.querySelectorAll('.mc-filter [data-show]');
   if (!card || !tabs.length) return;
+
+  const searchInput = document.getElementById('mc-search');
+  const clearBtn = document.querySelector('.mc-search-clear');
+  const countBadge = document.querySelector('.mc-search-count');
+  const emptyBox = document.querySelector('.mc-empty');
+  const emptyReset = document.querySelector('.mc-empty-reset');
+  const parts = Array.from(card.querySelectorAll('.mc-part'));
+  const sections = Array.from(card.querySelectorAll('.mc-section'));
+  const isRu = document.documentElement.lang === 'ru';
+
+  const norm = s => (s || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/ё/g, 'е');
+
+  // Cache normalized text + original counts once
+  sections.forEach(sec => {
+    const countEl = sec.querySelector('.mc-count');
+    if (countEl) countEl.dataset.orig = countEl.textContent;
+    const h2 = sec.querySelector('summary h2');
+    sec.dataset.normHead = norm(h2 ? h2.textContent : '');
+    sec.querySelectorAll('.mc-item').forEach(li => {
+      li.dataset.normText = norm(li.textContent);
+    });
+  });
+
+  const applySearch = () => {
+    if (!searchInput) return;
+    const raw = searchInput.value.trim();
+    const q = norm(raw);
+    const activeTab = card.dataset.show || 'tot';
+
+    card.classList.toggle('is-searching', !!q);
+    if (clearBtn) clearBtn.hidden = !raw;
+
+    let totalMatches = 0;
+
+    parts.forEach(part => {
+      const partName = part.dataset.part;
+      const tabAllows = activeTab === 'tot' || activeTab === partName;
+      let partVisible = 0;
+
+      part.querySelectorAll('.mc-section').forEach(sec => {
+        const headMatch = q && sec.dataset.normHead.indexOf(q) !== -1;
+        let secMatches = 0;
+        sec.querySelectorAll('.mc-item').forEach(li => {
+          const hit = !q || headMatch || li.dataset.normText.indexOf(q) !== -1;
+          li.hidden = !hit;
+          if (hit) secMatches++;
+        });
+
+        const countEl = sec.querySelector('.mc-count');
+        if (countEl) countEl.textContent = q ? String(secMatches) : (countEl.dataset.orig || String(secMatches));
+
+        sec.hidden = !!q && secMatches === 0;
+        if (q && secMatches > 0) sec.open = true;
+        if (tabAllows) partVisible += secMatches;
+      });
+
+      part.hidden = !!q && partVisible === 0;
+      if (tabAllows) totalMatches += partVisible;
+    });
+
+    if (countBadge) {
+      countBadge.hidden = !q;
+      if (q) countBadge.textContent = isRu ? `${totalMatches}` : `${totalMatches}`;
+    }
+    if (emptyBox) {
+      emptyBox.hidden = !q || totalMatches > 0;
+    }
+    card.querySelectorAll('.mc-jump a').forEach(a => {
+      const sec = document.querySelector(a.getAttribute('href'));
+      const tabHidden = activeTab !== 'tot' && sec && !sec.closest(`[data-part="${activeTab}"]`);
+      a.hidden = !!tabHidden || (!!q && !!sec && sec.hidden);
+    });
+  };
+
   const set = v => {
     card.dataset.show = v;
     tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.show === v)));
@@ -93,8 +172,35 @@ document.querySelector('.mc-print')?.addEventListener('click', () => window.prin
       const sec = document.querySelector(a.getAttribute('href'));
       a.hidden = v !== 'tot' && sec && !sec.closest(`[data-part="${v}"]`);
     });
+    applySearch();
   };
-  tabs.forEach(t => t.addEventListener('click', () => { set(t.dataset.show); history.replaceState(null, '', t.dataset.show === 'tot' ? location.pathname : '#' + t.dataset.show); }));
+
+  tabs.forEach(t => t.addEventListener('click', () => {
+    set(t.dataset.show);
+    history.replaceState(null, '', t.dataset.show === 'tot' ? location.pathname : '#' + t.dataset.show);
+  }));
+
+  if (searchInput) {
+    searchInput.addEventListener('input', applySearch);
+    searchInput.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && searchInput.value) {
+        searchInput.value = '';
+        applySearch();
+      }
+    });
+  }
+  const resetSearch = () => {
+    if (!searchInput) return;
+    searchInput.value = '';
+    applySearch();
+    searchInput.focus();
+  };
+  clearBtn?.addEventListener('click', resetSearch);
+  emptyReset?.addEventListener('click', () => {
+    set('tot');
+    resetSearch();
+  });
+
   const h = location.hash.slice(1);
   if (h === "bauturi" || h === "gustari") { set(h); requestAnimationFrame(() => card.scrollIntoView({ block: "start" })); }
 })();

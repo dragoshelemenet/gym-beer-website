@@ -277,16 +277,42 @@ details.mc-section:not([open]){margin-bottom:14px}
 @media(max-width:760px){.sc-grid{grid-template-columns:1fr;gap:28px}}
 @media print{.sc-grid{grid-template-columns:repeat(3,1fr)}.sc-photo{box-shadow:none;transform:none!important}}
 
-/* ---------- Meniu: filtru ---------- */
-.mc-filter{display:flex;justify-content:center;gap:0;margin:-6px auto 18px;border:2px solid var(--ink);border-radius:999px;width:max-content;max-width:100%;overflow:hidden;background:#fbf7ec;box-shadow:3px 3px 0 var(--gold-shadow)}
-.mc-filter button{border:0;background:transparent;padding:10px 18px;font-weight:800;font-size:.82rem;cursor:pointer;color:var(--ink);display:flex;gap:7px;align-items:center}
+/* ---------- Meniu: filtru & căutare integrată ---------- */
+.mc-controls{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;margin:-6px auto 22px}
+.mc-filter{display:flex;justify-content:center;gap:0;margin:0;border:2px solid var(--ink);border-radius:999px;width:max-content;max-width:100%;overflow:hidden;background:#fbf7ec;box-shadow:3px 3px 0 var(--gold-shadow)}
+.mc-filter button{border:0;background:transparent;padding:9px 16px;min-height:40px;font-weight:800;font-size:.81rem;cursor:pointer;color:var(--ink);display:flex;gap:7px;align-items:center;transition:background .15s,color .15s}
+.mc-filter button:not([aria-selected="true"]):hover{background:#efe2c6}
 .mc-filter button+button{border-left:2px solid var(--ink)}
 .mc-filter button span{font-size:.66rem;background:var(--kraft);border-radius:999px;padding:1px 7px}
 .mc-filter button[aria-selected="true"]{background:var(--ink);color:#f6efe0}
 .mc-filter button[aria-selected="true"] span{background:#f0b43c;color:var(--ink)}
+.mc-search{width:100%;max-width:460px;flex:none}
+.mc-search-box{display:flex;align-items:center;gap:9px;min-height:44px;height:44px;padding:4px 8px 4px 15px;background:#fbf7ec;border:2px solid var(--ink);border-radius:999px;box-shadow:3px 3px 0 var(--gold-shadow);transition:background .15s,box-shadow .15s,transform .15s}
+.mc-search-box:hover{background:#fffdf8}
+.mc-search-box:focus-within{background:#fffdf8;box-shadow:4px 4px 0 var(--gold),0 0 0 3px rgba(227,167,47,.26);transform:translateY(-1px)}
+.mc-search-icon{flex:none;width:16px;height:16px;color:#7b6c49;transition:color .15s}
+.mc-search-box:focus-within .mc-search-icon{color:var(--ink)}
+.mc-search-input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:.83rem;font-weight:600;color:var(--ink);padding:6px 0;outline:none}
+.mc-search-input::placeholder{color:#7c6e4e;font-weight:500}
+.mc-search-input::-webkit-search-cancel-button,.mc-search-input::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
+.mc-search-count{flex:none;font-size:.66rem;font-weight:800;letter-spacing:.03em;background:#f0b43c;color:var(--ink);border:1.5px solid var(--ink);border-radius:999px;padding:2px 8px;line-height:1.25;white-space:nowrap}
+.mc-search-count[hidden]{display:none}
+.mc-search-clear{flex:none;width:26px;height:26px;padding:0;display:grid;place-items:center;border:1.5px solid var(--ink);border-radius:50%;background:var(--kraft-light);color:var(--ink);font-size:1rem;font-weight:800;line-height:1;cursor:pointer;transition:background .15s,transform .15s}
+.mc-search-clear:hover{background:#f0b43c;transform:scale(1.06)}
+.mc-search-clear[hidden]{display:none}
+.mc-jump{justify-content:center;margin:0 0 28px}
+.mc-empty{margin:12px 0 22px;padding:28px 20px;border:1.5px dashed #9b8a66;border-radius:10px;background:rgba(251,247,236,.76);text-align:center}
+.mc-empty[hidden]{display:none}
+.mc-empty-title{font-family:var(--font-serif);font-style:italic;font-size:1.65rem;margin:0 0 6px;color:var(--ink)}
+.mc-empty-sub{margin:0 0 16px;font-size:.85rem;color:#6d6248}
+.mc-empty-reset{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border:2px solid var(--ink);border-radius:999px;background:#f0b43c;color:var(--ink);font-weight:800;font-size:.78rem;cursor:pointer;box-shadow:2px 2px 0 var(--ink);transition:transform .15s,background .15s}
+.mc-empty-reset:hover{background:#e3a72f;transform:translateY(-1px)}
 .menu-card[data-show="bauturi"] [data-part="gustari"],.menu-card[data-show="gustari"] [data-part="bauturi"]{display:none}
 .menu-card[data-show="gustari"] [data-part="gustari"]{margin-top:0;padding-top:0;border-top:0}
-@media(max-width:520px){.mc-filter button{padding:9px 11px;font-size:.74rem}.mc-filter button span{display:none}}
+.menu-card.is-searching .mc-part+.mc-part{margin-top:26px;padding-top:24px}
+@media(max-width:860px){.mc-controls{gap:12px;margin:-4px auto 20px}}
+@media(max-width:520px){.mc-filter{width:100%}.mc-filter button{flex:1;justify-content:center;padding:9px 8px;font-size:.74rem}.mc-filter button span{display:none}.mc-search-box{min-height:42px;padding:3px 7px 3px 13px}.mc-search-input{font-size:.82rem}}
+@media print{.mc-controls,.mc-empty{display:none!important}}
 
 /* ---------- Locații ---------- */
 .loc-page{padding-top:34px;padding-bottom:90px}
